@@ -2520,7 +2520,6 @@ body.bg {
 	.htcl-cont p {
 		width: 100%;
 		padding: 0;
-		font-size: 13px;
 	}
 	.htcl-cont .img {
 		margin: 0 auto;
@@ -2531,7 +2530,7 @@ body.bg {
 		padding: 70px 0 0;
 	}
 	.htcl-cont p {
-		margin: 0 0 20px;
+		font-size: 13px;
 	}
 	.htcl-cont .img {
 		width: 100%;
