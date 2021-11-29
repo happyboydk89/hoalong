@@ -2426,3 +2426,192 @@ body.bg {
 		margin: 20px 0 0;
 	}
 }
+
+/* intro-tt */
+.intro-tt .sec0 {
+	background: url(../img/about/thanh-tuu/bg.jpg) no-repeat center / cover;
+}
+.intro-tt .sec1 {
+	background: url(../img/about/bg4.jpg) no-repeat center bottom / cover;
+}
+.hli-tt {
+	position: absolute;
+	left: 47%;
+	bottom: 10vh;
+	width: 26vw;
+}
+@media only screen and (min-width: 1400px) {
+	.hli-tt {
+		bottom: 15vh;
+	}
+}
+@media only screen and (max-width: 1024px) {
+	.hli-tt {
+		left: 25%;
+		bottom: 18vh;
+		width: 50%;
+	}
+}
+
+/* intro-cctc */
+.intro-cctc .sec0 {
+	background: url(../img/about/co-cau-to-chuc/bg.jpg) no-repeat center top / cover;
+}
+.intro-cctc .sec1 {
+	background: url(../img/about/bg4.jpg) no-repeat center bottom / cover;
+}
+.hli-cctc {
+	position: absolute;
+	left: 27%;
+	bottom: 10vh;
+	width: 29vw;
+}
+@media only screen and (min-width: 1400px) {
+	.hli-cctc {
+		bottom: 17vh;
+	}
+}
+@media only screen and (max-width: 1024px) {
+	.hli-cctc {
+		left: 25%;
+		bottom: 18vh;
+		width: 50%;
+	}
+}
+
+/* intro-htcl */
+.intro-htcl .sec0 {
+	background: url(../img/about/hop-tac-chien-luoc/bg.jpg) no-repeat center / cover;
+}
+.intro-htcl .sec1 {
+	background: url(../img/about/bg4.jpg) no-repeat center bottom / cover;
+}
+.htcl-cont {
+	width: 1430px;
+	max-width: 74%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	padding: 74px 0 0;
+}
+.htcl-cont p {
+	width: 48%;
+	font-size: 16px;
+	line-height: 2;
+	padding: 10vh 0 0;
+}
+.htcl-cont .img {
+	width: 48%;
+}
+@media only screen and (min-width: 1400px) {
+	.htcl-cont {
+		padding: 7vh 0 0;
+	}
+	.htcl-cont p {
+		padding: 13vh 0 0;
+	}
+}
+@media only screen and (max-width: 1024px) {
+	.htcl-cont {
+		display: block;
+		padding: 97px 0 0;
+		max-width: 90%;
+	}
+	.htcl-cont p {
+		width: 100%;
+		padding: 0;
+		margin: 0 0 30px;
+	}
+	.htcl-cont .img {
+		margin: 0 auto;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.htcl-cont {
+		padding: 70px 0 0;
+	}
+	.htcl-cont p {
+		margin: 0 0 20px;
+	}
+	.htcl-cont .img {
+		width: 100%;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.intro-htcl .logos {
+		background: url(../img/about/hop-tac-chien-luoc/elips.svg) no-repeat center bottom;
+		width: 1007px;
+		height: 341px;
+		position: absolute;
+		left: 50%;
+		transform: translateX(-50%);
+		bottom: 0;
+	}
+	.intro-htcl .logos li {
+		position: absolute;
+	}
+	.lg1 {
+		left: -90px;
+		top: 0;
+	}
+	.lg2 {
+		left: 50%;
+		top: 0;
+		transform: translate(-50%, -90%);
+	}
+	.lg3 {
+		right: -100px;
+		top: 50px;
+	}
+}
+@media (min-width: 768px) and (max-width: 1600px) {
+	.intro-htcl .logos {
+		background-size: 100% 100%;
+		width: 504px;
+		height: 170px;
+	}
+	.lg1 {
+		left: -45px;
+	}
+	.lg1 img {
+		width: 118px;
+	}
+	.lg2 img {
+		width: 126px;
+	}
+	.lg3 img {
+		width: 131px;
+	}
+	.lg3 {
+		right: -50px;
+		top: 25px;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.intro-htcl .logos {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		padding: 0 20px;
+	}
+	.intro-htcl .logos li {
+		background-color: #fff;
+		border-radius: 8px;
+		width: 48%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin: 0 0 10px;
+		height: 110px;
+	}
+	.lg1 img {
+		width: 118px;
+	}
+	.lg2 img {
+		width: 126px;
+	}
+	.lg3 img {
+		width: 131px;
+	}
+}
