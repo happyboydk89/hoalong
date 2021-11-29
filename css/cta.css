@@ -1,0 +1,121 @@
+/* CTA */
+
+.cta {
+    position: fixed;
+    bottom: 96px;
+    right: 20px;
+    z-index: 999;
+}
+
+.cta .cta-item {
+    font-size: 44px;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    border-radius: 100%;
+    display: block;
+    line-height: 60px;
+    margin-top: 12px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .16);
+}
+
+.cta .cta-item>div {
+    border-radius: 100%;
+    position: relative;
+}
+
+.cta .cta-item .facebook {
+    background-color: #fff;
+}
+
+.cta .cta-item .facebook a i {
+    color: #0A7CFF;
+}
+
+.cta .cta-item .phone {
+    background-color: #a3cc01;
+    font-size: 30px;
+}
+
+.cta .cta-item div a {
+    box-sizing: border-box;
+    padding: 1px 0;
+    height: 60px;
+    display: block;
+}
+
+.cta .cta-item .phone i,
+.cta .cta-item i {
+    color: #fff;
+    line-height: 33px;
+}
+
+.cta .cta-item .zalo {
+    text-align: center;
+    height: 60px;
+    padding: 0;
+    background: #0A7CFF;
+}
+
+.cta .cta-item>div .Rbtn-over, a.special-link .Rbtn-over {
+    transform: scale(0);
+    float: right;
+    animation: shakeOut 2s;
+    -webkit-animation: shakeOut 2s;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-iteration-count: infinite;
+    position: absolute;
+    border-radius: 50px;
+    display: block;
+    top: -15px;
+    left: -15px;
+    width: 90px;
+    height: 90px;
+    z-index: -1;
+}
+
+a.special-link .Rbtn-over {
+    width: 126%;
+    height: 150%;
+    border-radius: 100px;
+    top: -8px;
+    left: -13px;
+    background-color: #ff0000d5;
+}
+
+.cta .cta-item>div .Rbtn-over:nth-of-type(2n), a.special-link .Rbtn-over:nth-of-type(2n) {
+    animation-delay: .5s;
+}
+
+.cta .cta-item>div.phone .Rbtn-over {
+    background-color: #a3cc019c;
+}
+
+.cta .cta-item>div.zalo .Rbtn-over {
+    background-color: #1296D5;
+}
+
+@keyframes shakeOut {
+    0% {
+        transform: scale(0);
+        opacity: 1;
+    }
+    50% {
+        opacity: .5;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 0;
+    }
+}
+
+a.special-link {
+    position: fixed;
+    left: 5%;
+    bottom: 90px;
+    background: red;
+    padding: 10px;
+    color: #fff;
+    border-radius: 100px;
+}
