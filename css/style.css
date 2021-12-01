@@ -11,6 +11,9 @@ body {
 body.top {
 	overflow: hidden;
 }
+.d-inline-block {
+	display: inline-block;
+}
 @media screen and (max-width: 1024px) {
 	/* body {
 		overflow: hidden;
@@ -853,12 +856,12 @@ a:hover img {
 	margin: 0 4px;
 }
 .tabs span {
-	width: 202px;
+	width: 240px;
 	height: 40px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	font-size: 18px;
+	font-size: 16px;
 	background-color: #fff;
 	color: #004988;
 	cursor: pointer;
@@ -901,6 +904,9 @@ a:hover img {
 .intro .cont {
 	padding: 10vh 0 0;
 }
+.intro .cont .pic {
+	padding-top: 6vh;
+}
 .intro1 {
 	max-width: 78%;
 	margin: 0 auto;
@@ -924,6 +930,9 @@ a:hover img {
 	.intro1 h2 {
 		font-size: 16px;
 		margin: 0 0 20px;
+	}
+	.intro .cont .pic {
+		padding-top: 0;
 	}
 }
 .tq-list {
@@ -951,6 +960,10 @@ a:hover img {
 	text-align: center;
 	min-height: 160px;
 	padding: 20px 16px 16px;
+}
+.tq-list ul li p {
+	text-align: justify;
+	text-align-last: center;
 }
 @media only screen and (min-width: 1400px) {
 	.tq-list ul li {
@@ -1105,6 +1118,10 @@ a:hover img {
 	min-height: 160px;
 	padding: 20px;
 }
+.vh-list ul li p {
+	text-align: justify;
+	text-align-last: center;
+}
 .vh-list .ico {
 	margin: 0 0 20px;
 	height: 70px;
@@ -1198,6 +1215,8 @@ a:hover img {
 .manager-list p {
 	font-size: 13px;
 	line-height: 1.8;
+	text-align: justify;
+	text-align-last: center;
 }
 .intro4-des {
 	padding-bottom: 50px;
@@ -1284,7 +1303,7 @@ a:hover img {
 		padding: 20px 0 0;
 	}
 	.invest-info h2 {
-		font-size: 36px;
+		font-size: 30px;
 		margin: 0 0 30px;
 	}
 	.invest-info p {

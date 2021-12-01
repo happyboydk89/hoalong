@@ -56,11 +56,11 @@ $(function () {
 
 	$(".kcn-slider .slick").slick({
 		slidesToShow: 3,
-		slidesToScroll: 3,
+		slidesToScroll: 1,
 		dots: true,
 		autoplay: true,
 		infinite: true,
-		autoplaySpeed: 5000,
+		autoplaySpeed: 2000,
 		speed: 1000,
 		pauseOnHover: false,
 		responsive: [
