@@ -11,6 +11,10 @@
 	font-size: 16px;
 	line-height: 1.625;
 }
+.info-platform .img {
+	width: 80%;
+	margin: 0 auto;
+}
 .platform-slider {
 	background: #f1f9ff;
 	padding: 20px 0 25px;

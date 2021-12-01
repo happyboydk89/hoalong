@@ -1,0 +1,89 @@
+.intro-kcn .sec0 {
+	background: url("../img/invest/kcn/bg3.jpg") no-repeat center top / cover;
+	transition: all 0.5s ease-in-out;
+}
+.intro-kcn .sec0.fp-table::before {
+    transform: scale(1);
+    opacity: 1;
+}
+.intro-kcn .sec0::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: url("../img/invest/kcn/bg3.jpg") no-repeat center / cover;
+    transition: all 1s ease-in-out;
+    transform: scale(1.2);
+    opacity: 0.9;
+}
+.kcn-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+	text-align: center;
+}
+.kcn-title h2 {
+	font-size: 64px;
+	font-weight: bold;
+}
+.kcn-title h3 {
+	font-size: 36px;
+}
+.btn-360 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+	width: 170px;
+}
+.btn-360 img {
+	margin-bottom: 10px;
+	transition: 1s all;
+}
+.btn-360 span {
+	text-align: center;
+	width: 100%;
+}
+.j-down:hover .btn-360 img {
+	transform: rotateY(360deg);
+	transition: 1s all;
+}
+.anchor-foot {
+    position: absolute;
+    bottom: 0;
+	text-align: center;
+    width: 100%;
+}
+.anchor-foot .list-tabs li {
+    background: #004988;
+    display: inline-block;
+    margin: 0 7px;
+    transition: 0.3s all;
+}
+.anchor-foot .list-tabs li.active ,
+.anchor-foot .list-tabs li:hover {
+	background:#a3cc01;
+}
+.anchor-foot .list-tabs li a {
+	width: 160px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 18px;
+}
+.anchor-foot .list-tabs li:first-child {
+    border-top-left-radius: 5px;
+}
+.anchor-foot .list-tabs li:last-child {
+    border-top-right-radius: 5px;
+}
+
+.sec1 .anchor-foot {
+	top: 120px;
+	bottom: inherit;
+	background: #C4C4C4;
+}
