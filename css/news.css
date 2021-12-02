@@ -107,6 +107,12 @@
 .sidebar-news .list-item li .col-txt .ttl {
 	font-size: 12px;
 	margin-bottom: 5px;
+	overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
 }
 .sidebar-news .list-item li .col-txt a:hover .ttl {
 	color: #004988;
@@ -171,6 +177,12 @@
 	font-size: 18px;
 	font-weight: bold;
 	margin-bottom: 5px;
+	overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
 }
 .page-news .content-news .item-news .foot-item .time-item {
 	font-size: 10px;
@@ -181,6 +193,12 @@
 	font-size: 16px;
 	line-height: 1.5;
 	margin-bottom: 15px;
+	overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
 }
 .page-news .content-news .item-news .foot-item .btn-more {
 	border: 1px solid rgba(0, 0, 0, 0.8);
