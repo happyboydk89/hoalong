@@ -2457,18 +2457,20 @@ body.bg {
 .intro-tt .sec0 {
 	background: url(../img/about/thanh-tuu/bg.jpg) no-repeat center / cover;
 }
-.intro-tt [data-bg="0"],
-.intro-tt .sec1 {
-	background: url(../img/about/thanh-tuu/bg1.jpg) no-repeat center bottom / cover;
-}
-.intro-tt [data-bg="1"] {
-	background: url(../img/about/thanh-tuu/bg2.jpg) no-repeat center bottom / cover;
-}
-.intro-tt [data-bg="2"] {
-	background: url(../img/about/thanh-tuu/bg3.jpg) no-repeat center bottom / cover;
-}
-.intro-tt [data-bg="3"] {
-	background: url(../img/about/bg4.jpg) no-repeat center / cover;
+@media only screen and (min-width: 1024px) {
+	.intro-tt [data-bg="0"],
+	.intro-tt .sec1 {
+		background: url(../img/about/thanh-tuu/bg1.jpg) no-repeat center bottom / cover;
+	}
+	.intro-tt [data-bg="1"] {
+		background: url(../img/about/thanh-tuu/bg2.jpg) no-repeat center bottom / cover;
+	}
+	.intro-tt [data-bg="2"] {
+		background: url(../img/about/thanh-tuu/bg3.jpg) no-repeat center bottom / cover;
+	}
+	.intro-tt [data-bg="3"] {
+		background: url(../img/about/bg4.jpg) no-repeat center / cover;
+	}
 }
 .hli-tt {
 	position: absolute;
@@ -2486,6 +2488,9 @@ body.bg {
 		left: 25%;
 		bottom: 18vh;
 		width: 50%;
+	}
+	.intro-tt .sec1 {
+		background: url(../img/about/bg4.jpg) no-repeat center / cover;
 	}
 }
 
