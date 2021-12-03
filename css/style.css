@@ -1626,7 +1626,8 @@ a:hover img {
 .kcn-slider a:hover dd {
 	color: #1677be;
 }
-.kcn-slider .slick-arrow {
+.kcn-slider .slick-arrow,
+.thanh-tuu .slick-arrow {
 	font-size: 0;
 	line-height: 0;
 	color: transparent;
@@ -1638,19 +1639,23 @@ a:hover img {
 	z-index: 3;
 	background-size: cover;
 }
-.kcn-slider .slick-prev {
+.kcn-slider .slick-prev,
+.thanh-tuu .slick-prev {
 	transform: translateX(-147px);
 }
-.kcn-slider .slick-next {
+.kcn-slider .slick-next,
+.thanh-tuu .slick-next {
 	transform: translateX(127px);
 }
-.kcn-slider .slick-dots {
+.kcn-slider .slick-dots,
+.thanh-tuu .slick-dots {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 	margin: 30px 0 0;
 }
-.kcn-slider .slick-dots li {
+.kcn-slider .slick-dots li,
+.thanh-tuu .slick-dots li {
 	width: 18px;
 	height: 18px;
 	border-radius: 50%;
@@ -1661,10 +1666,12 @@ a:hover img {
 	text-align: center;
 	cursor: pointer;
 }
-.kcn-slider .slick-dots li.slick-active {
+.kcn-slider .slick-dots li.slick-active,
+.thanh-tuu .slick-dots li.slick-active {
 	border-color: #a3cc01;
 }
-.kcn-slider .slick-dots li button {
+.kcn-slider .slick-dots li button,
+.thanh-tuu .slick-dots li button {
 	position: absolute;
 	left: 0;
 	top: 0;
@@ -2450,8 +2457,18 @@ body.bg {
 .intro-tt .sec0 {
 	background: url(../img/about/thanh-tuu/bg.jpg) no-repeat center / cover;
 }
+.intro-tt [data-bg="0"],
 .intro-tt .sec1 {
-	background: url(../img/about/bg4.jpg) no-repeat center bottom / cover;
+	background: url(../img/about/thanh-tuu/bg1.jpg) no-repeat center bottom / cover;
+}
+.intro-tt [data-bg="1"] {
+	background: url(../img/about/thanh-tuu/bg2.jpg) no-repeat center bottom / cover;
+}
+.intro-tt [data-bg="2"] {
+	background: url(../img/about/thanh-tuu/bg3.jpg) no-repeat center bottom / cover;
+}
+.intro-tt [data-bg="3"] {
+	background: url(../img/about/bg4.jpg) no-repeat center / cover;
 }
 .hli-tt {
 	position: absolute;
@@ -2477,7 +2494,7 @@ body.bg {
 	background: url(../img/about/co-cau-to-chuc/bg.jpg) no-repeat center top / cover;
 }
 .intro-cctc .sec1 {
-	background: url(../img/about/bg4.jpg) no-repeat center bottom / cover;
+	background: url(../img/about/co-cau-to-chuc/bg2.jpg) no-repeat center bottom / cover;
 }
 .hli-cctc {
 	position: absolute;
@@ -2503,7 +2520,7 @@ body.bg {
 	background: url(../img/about/hop-tac-chien-luoc/bg.jpg) no-repeat center / cover;
 }
 .intro-htcl .sec1 {
-	background: url(../img/about/bg4.jpg) no-repeat center bottom / cover;
+	background: url(../img/about/hop-tac-chien-luoc/bg2.jpg) no-repeat center bottom / cover;
 }
 .htcl-cont {
 	width: 1430px;
@@ -2587,7 +2604,7 @@ body.bg {
 	.intro-htcl .logos {
 		background-size: 100% 100%;
 		width: 700px;
-    	height: 290px;
+		height: 290px;
 	}
 	.lg1 {
 		left: -45px;
@@ -2631,5 +2648,127 @@ body.bg {
 	}
 	.lg3 img {
 		width: 131px;
+	}
+}
+.thanh-tuu {
+	padding: 10vh 0 0;
+}
+.tt-cont .photo {
+	width: 400px;
+	margin: 0 auto;
+}
+.tt-cont {
+	text-align: center;
+}
+.tt-cont dt {
+	font-size: 28px;
+	margin: 0 0 5px;
+}
+.tt-cont dd {
+	font-size: 16px;
+	color: #a3cc01;
+	margin: 0 0 20px;
+	text-transform: uppercase;
+}
+@media only screen and (min-width: 1400px) {
+	.tt-cont dd {
+		margin: 0 0 30px;
+	}
+	.tt-cont .photo {
+		width: 748px;
+	}
+}
+@media only screen and (max-width: 1400px) {
+	.thanh-tuu .slick-dots {
+		margin: 15px 0 0;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.thanh-tuu {
+		padding: 20px 0 50px;
+	}
+	.tt-cont .photo {
+		width: 100%;
+	}
+	.tt-cont {
+		text-align: left;
+	}
+	.tt-cont dl {
+		padding: 0 20px;
+	}
+	.tt-cont dt {
+		font-size: 18px;
+	}
+	.tt-cont dd {
+		font-size: 14px;
+		margin: 0 0 10px;
+	}
+}
+.tin-bai {
+	width: 1130px;
+	max-width: 70%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.tin-bai .photo img {
+	height: 320px;
+	object-fit: cover;
+}
+.tin-bai .photo,
+.tb-left {
+	width: 49%;
+}
+.tb-left {
+	max-height: 320px;
+	overflow: auto;
+	-webkit-overflow-scrolling: touch;
+	font-size: 16px;
+}
+.tb-left h4 {
+	font-size: 20px;
+	color: #a3cc01;
+	margin: 0 0 20px;
+}
+.tb-left p {
+	margin: 0 0 20px;
+}
+@media only screen and (min-width: 1400px) {
+	.tb-left h4 {
+		font-size: 26px;
+	}
+	.tb-left {
+		max-height: 378px;
+	}
+	.tin-bai .photo img {
+		height: 378px;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.tin-bai {
+		max-width: 90%;
+		margin: 0 auto;
+		display: flex;
+		flex-direction: column-reverse;
+	}
+	.tin-bai .photo img {
+		height: auto;
+		margin: 0 0 20px;
+	}
+	.tin-bai .photo,
+	.tb-left {
+		width: 100%;
+	}
+	.tb-left {
+		max-height: 100%;
+		overflow: hidden;
+		font-size: 14px;
+	}
+	.tb-left h4 {
+		font-size: 16px;
+		margin: 0 0 10px;
+	}
+	.tb-left p {
+		margin: 0 0 10px;
 	}
 }

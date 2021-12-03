@@ -74,6 +74,17 @@ $(function () {
 		],
 	});
 
+	$(".thanh-tuu .slick").slick({
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		dots: true,
+		// autoplay: true,
+		infinite: true,
+		autoplaySpeed: 2000,
+		speed: 1000,
+		pauseOnHover: false,
+	});
+
 	$(".platform-slider .slick").slick({
 		slidesToShow: 8,
 		slidesToScroll: 3,
@@ -174,11 +185,12 @@ $(function () {
 	//tabs
 	$(".tabs li").click(function () {
 		var num = $(".tabs li").index(this);
-		console.log(num);
 		$(".t-conts .cont").hide();
 		$(".t-conts .cont").eq(num).show();
 		$(".tabs li").removeClass("is-select");
 		$(this).addClass("is-select");
+		$(".thanh-tuu .slick").slick("setPosition");
+		$(".sec1").attr("data-bg", num);
 	});
 	$(".j-tab").click(function () {
 		var num = $(this).attr("data-tab");
@@ -186,6 +198,8 @@ $(function () {
 		$(".t-conts .cont").eq(num).show();
 		$(".tabs li").removeClass("is-select");
 		$(".tabs li").eq(num).addClass("is-select");
+		$(".thanh-tuu .slick").slick("setPosition");
+		$(".sec1").attr("data-bg", num);
 	});
 
 	// inview
