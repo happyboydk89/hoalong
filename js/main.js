@@ -5,6 +5,7 @@ $(window).on("load", function () {
 	} else {
 		$(".y-scroll, .intro4").mCustomScrollbar("destroy");
 	}
+	$("body").addClass("is-loaded");
 });
 
 $(function () {
@@ -184,7 +185,6 @@ $(function () {
 			},
 		],
 	});
-
 });
 
 $(function () {
