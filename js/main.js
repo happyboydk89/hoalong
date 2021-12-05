@@ -124,6 +124,67 @@ $(function () {
 			},
 		],
 	});
+
+	$(".htq-slider .slick").slick({
+		slidesToShow: 3,
+		slidesToScroll: 1,
+		dots: true,
+		autoplay: true,
+		infinite: true,
+		autoplaySpeed: 5000,
+		speed: 1000,
+		pauseOnHover: false,
+		responsive: [
+			{
+				breakpoint: 767,
+				settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1,
+				},
+			},
+		],
+	});
+
+	$(".csht-slider .slick").slick({
+		slidesToShow: 3,
+		slidesToScroll: 1,
+		dots: true,
+		// autoplay: true,
+		infinite: true,
+		autoplaySpeed: 5000,
+		speed: 1000,
+		pauseOnHover: false,
+		responsive: [
+			{
+				breakpoint: 767,
+				settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1,
+				},
+			},
+		],
+	});
+
+	$(".ti-slider .slick").slick({
+		slidesToShow: 3,
+		slidesToScroll: 1,
+		dots: true,
+		// autoplay: true,
+		infinite: true,
+		autoplaySpeed: 5000,
+		speed: 1000,
+		pauseOnHover: false,
+		responsive: [
+			{
+				breakpoint: 767,
+				settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1,
+				},
+			},
+		],
+	});
+
 });
 
 $(function () {

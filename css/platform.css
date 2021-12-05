@@ -128,7 +128,7 @@
 }
 
 .platform-client {
-	background: url("../img/platform/bg-platform.png") no-repeat center center;
+	background: url("../img/platform/bg-dots.png") no-repeat center center;
 	background-size: cover;
 	padding: 80px 0;
 }
