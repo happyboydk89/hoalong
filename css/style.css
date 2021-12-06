@@ -2912,3 +2912,136 @@ body.bg {
 		margin: 0 0 15px;
 	}
 }
+.htcl {
+	height: 100vh;
+	overflow: auto;
+	-webkit-overflow-scrolling: touch;
+}
+.htcl .container-fluid {
+	padding: 18vh 0 0;
+}
+.container-fluid {
+	width: 1430px;
+	max-width: 74%;
+	margin: 0 auto;
+}
+.htcl .kcn-slider {
+	padding: 0 0 50px;
+}
+.htcl .kcn-slider .slick-item {
+	padding: 0 14px;
+}
+@media only screen and (max-width: 1024px) {
+	.container-fluid {
+		width: 90%;
+		max-width: 90%;
+	}
+	.htcl .container-fluid {
+		padding: 10vh 0 0;
+	}
+}
+.htcl-flex {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 0 5vh;
+}
+.htcl-flex .photo {
+	width: 49%;
+}
+.htcl-flex .photo a {
+	display: block;
+	position: relative;
+}
+.htcl-flex .photo a::after {
+	content: "";
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: url(../img/about/hop-tac-chien-luoc/play.svg) no-repeat center;
+}
+.htcl-flex .photo a img {
+	display: block;
+}
+.htcl-info {
+	width: 46%;
+	font-size: 16px;
+	line-height: 1.625;
+	align-self: center;
+}
+.htcl-info h3 {
+	font-size: 24px;
+	font-weight: bold;
+	color: #a3cc01;
+	text-transform: uppercase;
+	margin: 0 0 10px;
+}
+.htcl-info p {
+	margin: 0 0 20px;
+}
+.htcl-info p.htcl-sub {
+	font-size: 18px;
+	margin: 0;
+}
+.htcl-info p.htcl-site {
+	font-size: 14px;
+	font-style: italic;
+}
+.htcl-info a.btn {
+	background: #004988;
+	border-radius: 4px;
+	width: 156px;
+	height: 34px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+.htcl-info a.btn:hover {
+	background-color: #a3cc01;
+}
+@media only screen and (max-width: 1399px) {
+	.htcl-info {
+		font-size: 13px;
+	}
+	.htcl-info h3 {
+		font-size: 22px;
+	}
+	.htcl-info p {
+		margin: 0 0 15px;
+	}
+	.htcl-info p.htcl-sub {
+		font-size: 16px;
+	}
+	.htcl-info p.htcl-site {
+		font-size: 11px;
+	}
+	.htcl-flex .photo a::after {
+		background-size: 50px;
+	}
+}
+@media only screen and (max-width: 1024px) {
+	.htcl-flex {
+		margin: 0 0 30px;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.htcl-flex {
+		flex-direction: column-reverse;
+	}
+	.htcl-flex .photo,
+	.htcl-info {
+		width: 100%;
+	}
+	.htcl-flex .photo {
+		margin: 0 0 20px;
+	}
+	.htcl-flex .photo a::after {
+		background-size: 40px;
+	}
+	.htcl-info h3 {
+		font-size: 20px;
+	}
+}

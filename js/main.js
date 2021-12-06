@@ -200,7 +200,7 @@ $(function () {
 			}
 			if (index == 2) {
 				var vw = $(window).width();
-				if (vw < 1024) {
+				if (vw < 1024 && !$("#fullpage").hasClass("intro-htcl")) {
 					$.fn.fullpage.setMouseWheelScrolling(false);
 					$.fn.fullpage.setAllowScrolling(false);
 				}
