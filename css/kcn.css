@@ -130,6 +130,7 @@
 	font-weight: bold;
 }
 .page-kcn .box-head p {
+	color: #a3cc01;
 	font-size: 36px;
 	font-weight: bold;
 }
@@ -606,6 +607,10 @@
 		flex: 0 0 100%;
 		max-width: 100%;
 	}
+	.page-kcn .box-head h3 ,
+	.lhbg .title h3 {
+		font-size: 30px;
+	}
 	.vtdl .list li img {
 		height: 65px;
 	}
@@ -621,6 +626,7 @@
 	}
 	.page-kcn .slick-item dl {
 		padding: 9px;
+		height: 25%;
 	}
 	.page-kcn dl dt {
 		font-size: 10px;
@@ -751,7 +757,7 @@
 		font-size: 22px;
 	}
 	.lhbg .title {
-		padding: 40px 0;
+		padding: 30px 0;
 	}
 }
 /* .page-kcn .fixscroll,
@@ -783,4 +789,189 @@ body.fixscroll {
 	transition: all 1s ease-in-out;
 	transform: scale(1.2);
 	opacity: 0.9;
+}
+
+
+/* KCN HAI SƠN */
+.p-hs {
+    background: url("../img/invest/kcn/kcn-hs.jpg") no-repeat center / cover;
+}
+.duyc {
+    padding: 50px 0 100px;
+}
+.duyc .container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.duyc .col-left {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.duyc .col-left h3 {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0 0 30px;
+}
+.duyc .col-right {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding: 0 0 0 50px;
+}
+.nx-full {
+    background: #F1F9FF;
+	padding: 0 0 80px;
+}
+.nx-full .title {
+    background: #004988;
+}
+.nx-full .title h3 {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    padding: 50px 0 150px;
+}
+.nx-full .box-dv {
+    background: #fff;
+    max-width: 1470px;
+    margin: -100px auto 0;
+    padding: 80px 100px;
+}
+.nx-full .box-dv h3 {
+	font-size: 36px;
+	font-weight: bold;
+	margin: 0 0 120px;
+}
+.nx-full .box-dv ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.nx-full .box-dv ul li {
+    flex: 0 0 24%;
+    max-width: 24%;
+}
+.nx-full .box-dv ul li:nth-child(2) {
+	margin: -70px 0 0;
+}
+.nx-full .box-dv ul li:nth-child(3) {
+	margin: -140px 0 0;
+}
+.nx-full .box-dv ul li:last-child {
+	margin: -210px 0 0;
+}
+.nx-full .box-dv ul li >img {
+	margin: 0 0 20px;
+	width: 100%;
+}
+.nx-full .box-dv ul li .ttl {
+	color: #1677BE;
+    font-size: 18px;
+    font-weight: 500;
+	margin: 0 0 10px;
+}
+.nx-full .box-dv ul li .txt {
+    font-size: 16px;
+	margin: 0 0 20px;
+}
+.nx-full .box-dv ul li a span {
+    font-size: 14px;
+    display: inline-block;
+    position: relative;
+}
+.nx-full .box-dv ul li .btn-rm {
+	display: flex;
+	align-items: center;
+	position: relative;
+}
+.nx-full .box-dv ul li .btn-rm::after {
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 80px;
+	height: 1px;
+	background: #a3cc01;
+}
+
+@media screen and (max-width:1100px) {
+	.duyc {
+		padding: 0px 0 60px;
+	}
+}
+
+@media screen and (max-width:1000px) {
+	.duyc {
+		padding: 0px 0 60px;
+	}
+	.duyc .col-left h3 {
+		font-size: 30px;
+		margin: 0 0 15px;
+	}
+	.duyc .col-right {
+		padding: 0 0 0 30px;
+	}
+	.nx-full .title h3 {
+		font-size: 30px;
+		padding: 40px 0;
+	}
+	.nx-full .box-dv {
+		margin: 0 auto;
+	}
+	.nx-full .box-dv {
+		padding: 50px 30px;
+	}
+	.nx-full .box-dv h3 {
+		font-size: 28px;
+		margin: 0 0 80px;
+	}
+	.nx-full .box-dv ul li:nth-child(2) {
+		margin: -50px 0 0;
+	}
+	.nx-full .box-dv ul li:nth-child(3) {
+		margin: -100px 0 0;
+	}
+	.nx-full .box-dv ul li:last-child {
+		margin: -150px 0 0;
+	}
+}
+
+@media screen and (max-width:767px) {
+	.duyc .col-left {
+		flex: 0 0 100%;
+		max-width: 100%;
+		margin: 0 0 30px 0;
+	}
+	.duyc .col-right {
+		flex: 0 0 100%;
+		max-width: 100%;
+		padding: 0;
+	}
+	.duyc .col-right img {
+		width: 100%;
+	}
+	.duyc .col-left h3 {
+		font-size: 22px;
+	}
+	.nx-full {
+		padding: 0;
+	}
+	.nx-full .title h3 {
+		font-size: 22px;
+		padding: 30px 0;
+	}
+	.nx-full .box-dv {
+		padding: 40px 15px;
+	}
+	.nx-full .box-dv h3 {
+		margin: 0 0 40px;
+	}
+	.nx-full .box-dv ul li {
+		flex: 0 0 49%;
+		max-width: 49%;
+	}
+	.nx-full .box-dv ul li {
+		margin: 0 0 20px 0 !important;
+	}
+
 }
