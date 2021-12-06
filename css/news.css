@@ -414,6 +414,20 @@
 	margin: 0 8px;
 	padding: 11px;
 }
+.foot-pagination.white .list-num li a {
+	border: 1px solid #fff;
+	color: #fff;
+}
+.foot-pagination.white .list-num li:first-child a {
+    background: url(../img/icon/arrow-left-w.png) center no-repeat;
+    background-size: cover;
+    border: none;
+}
+.foot-pagination.white .list-num li:last-child a {
+	background: url(../img/icon/arrow-right-w.png) center no-repeat;
+	background-size: cover;
+	border: none;
+}
 .foot-pagination .list-num li:first-child a {
 	background: url(../img/icon/arrow-left.png) center no-repeat;
 	background-size: cover;

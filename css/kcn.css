@@ -818,6 +818,9 @@ body.fixscroll {
     max-width: 50%;
     padding: 0 0 0 50px;
 }
+.duyc .duyc-content p {
+	font-size: 16px;
+}
 .nx-full {
     background: #F1F9FF;
 	padding: 0 0 80px;
@@ -974,4 +977,242 @@ body.fixscroll {
 		margin: 0 0 20px 0 !important;
 	}
 
+}
+
+
+
+/* nha xuong xay san */
+.page-title .list-tabs.nxxs li {
+	background: #1677BE;
+}
+.page-title .list-tabs.nxxs li select {
+	background-color: #1677BE;
+	display: block;
+	font-size: 18px;
+    padding: 0 15px;
+    width: 180px;
+	height: 42px;
+    text-align: left;
+    color: #fff;
+}
+.page-title .list-tabs.nxxs li select {
+	background-image: url("../img/icon/u_arrow-d-w.svg");
+	background-repeat: no-repeat;
+	background-position: 95% 50%;
+    background-size: 15%;
+}
+.page-title .list-tabs.nxxs li:first-child select {
+	border-top-left-radius: 5px;
+}
+.page-title .list-tabs.nxxs li select#nx {
+	width: 240px;
+	background-position: 95% 50%;
+    background-size: 11%;
+}
+.page-title .list-tabs.nxxs li select#gia {
+	width: 130px;
+	background-position: 95% 50%;
+    background-size: 20%;
+}
+.page-title .list-tabs.nxxs li a {
+	width: 180px;
+	background: #a3cc01;
+	border-top-right-radius: 5px;
+}
+.ttl-line {
+	font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 0 50px;
+}
+.duyc-head {
+	max-width: 870px;
+	margin: 0 auto;
+}
+.duyc-head p {
+	font-size: 16px;
+	margin: 0 0 40px;
+}
+.img-rank {
+	max-width: 1080px;
+	margin: 0 auto 80px;
+}
+.ticb {
+	background: #004988;
+	padding: 50px 0;
+}
+.ticb .ticb-wrap {
+	max-width: 1450px;
+	margin: 0 auto;
+	padding:  0 15px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.ticb .col-left {
+	color: #fff;
+	flex: 0 0 20%;
+	max-width: 20%;
+}
+.ticb .col-left p {
+	font-size: 18px;
+	margin: 0 0 30px;
+}
+.ticb .col-left .img {
+	margin: 0 0 40px;
+}
+.ticb .col-left ul li {
+	font-size: 16px;
+	margin: 0 0 30px;
+}
+.ticb .col-right {
+	flex: 0 0 80%;
+	max-width: 80%;
+}
+.ticb .col-right .list-nx {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.ticb .col-right .list-nx .items {
+	flex: 0 0 48%;
+	max-width: 48%;
+	margin: 0 0 40px;
+}
+.ticb .col-right .list-nx .items .img {
+	position: relative;
+	margin: 0 0 15px;
+}
+.ticb .col-right .list-nx .items .img .tag {
+	position: absolute;
+	font-size: 14px;
+	right: 0;
+	top: 10%;
+	display: flex;
+    flex-direction: column;
+    align-items: end;
+	text-align: center;
+}
+.ticb .col-right .list-nx .items .img .tag-name {
+	background: #A3CC01;
+	display: block;
+	color: #fff;
+	padding: 10px;
+	width: 80%;
+}
+.ticb .col-right .list-nx .items .img .tag-price {
+	background: #fff;
+	display: block;
+	color: rgba(0, 0, 0, 0.8);
+	padding: 10px 15px;
+	width: 120px;
+}
+.ticb .col-right .list-nx .items .ttl {
+	color: #ffff;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+.clnx {
+	padding: 100px 0 60px;
+}
+.clnx ul {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.clnx ul li {
+	flex: 0 0 32%;
+	max-width: 32%;
+}
+.clnx ul li img {
+	margin: 0 0 20px;
+}
+.clnx ul li h3 {
+	color: #1677BE;
+	font-size: 18px;
+	text-align: center;
+	font-weight: 700;
+}
+
+@media screen and (max-width:1000px) {
+	.ticb .col-left {
+		flex: 0 0 25%;
+		max-width: 25%;
+	}
+	.ticb .col-right {
+		flex: 0 0 75%;
+		max-width: 75%;
+	}
+	.ticb .col-right .list-nx .items .ttl {
+		font-size: 14px;
+	}
+	.page-title .list-tabs.nxxs li select {
+		font-size: 16px;
+	}
+	.page-title .list-tabs.nxxs li select {
+		width: 150px;
+	}
+	.page-title .list-tabs.nxxs li select#nx {
+		width: 220px;
+	}
+	.page-title .list-tabs.nxxs li select#gia {
+		width: 115px;
+	}
+	.page-title .list-tabs.nxxs li a {
+		font-size: 16px;
+		width: 150px;
+	}
+	.ttl-line {
+		font-size: 30px;
+	}
+	.clnx ul li h3 {
+		font-size: 16px;
+	}
+	.clnx {
+		padding: 60px 0 60px;
+	}
+}
+
+@media screen and (max-width:767px) {
+	.page-title .list-tabs.nxxs li {
+		width: 50%;
+		margin: 0 0 1px 0;
+	}
+	.page-title .list-tabs.nxxs li select {
+		width: 100% !important;
+		font-size: 13px;
+		background-size: 12% !important;
+	}
+	.page-title .list-tabs.nxxs li a {
+		width: 100%;
+		border-top-right-radius: 0;
+		font-size: 13px;
+	}
+	.ttl-line {
+		font-size: 22px;
+		margin: 0 0 30px;
+	}
+	.ticb .col-left {
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+	.ticb .col-right {
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+	.ticb .col-right .list-nx .items {
+		flex: 0 0 100%;
+		max-width: 100%;
+		margin: 0 0 20px;
+	}
+	.clnx {
+		padding: 40px 0 20px;
+	}
+	.clnx ul li {
+		flex: 0 0 100%;
+		max-width: 100%;
+		margin: 0 0 20px;
+	}
+	
 }
