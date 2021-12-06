@@ -2852,7 +2852,8 @@ body.bg {
 }
 @media only screen and (max-width: 767px) {
 	.cctc {
-		height: calc(100vh - 170px);
+		/* height: calc(100vh - 170px); */
+		height: 100%;
 	}
 	.cctc h2 {
 		font-size: 20px;
