@@ -32,7 +32,7 @@ body.top {
 	box-sizing: border-box;
 }
 .green {
-	color: #a3cc01;
+	color: #a3cc01 !important;
 }
 .blue1 {
 	color: #1677be;
@@ -3043,5 +3043,239 @@ body.bg {
 	}
 	.htcl-info h3 {
 		font-size: 20px;
+	}
+}
+.invest-dt .kcn-heading {
+	background: url(../img/invest/dt/bg2.jpg) no-repeat center / cover;
+}
+.kcn.invest-lkdt {
+	background: url(../img/invest/lien-ket/bg.jpg) no-repeat center / cover;
+}
+.invest-lkdt .kcn-heading {
+	background: url(../img/invest/lien-ket/bg2.jpg) no-repeat center / cover;
+}
+.invest-lkdt .ht-kcn {
+	text-align: center;
+}
+.invest-lkdt .ht-kcn p {
+	max-width: 100%;
+}
+.lkdt-list {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 0 50px;
+}
+.lkdt-list li {
+	width: 25%;
+	text-align: center;
+	font-size: 16px;
+	line-height: 1.625;
+}
+.lkdt-list h3 {
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 50px 0 15px;
+	min-height: 58px;
+}
+.lkdt-list .photo {
+	display: block;
+	position: relative;
+}
+.lkdt-list .photo::after {
+	width: 40px;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 24px;
+	background-color: #a3cc01;
+	color: #fff;
+	border-radius: 50%;
+	position: absolute;
+	left: 50%;
+	bottom: -20px;
+	margin: 0 0 0 -20px;
+}
+.lkdt-list li:nth-child(1) .photo::after {
+	content: "1";
+}
+.lkdt-list li:nth-child(2) .photo::after {
+	content: "2";
+}
+.lkdt-list li:nth-child(3) .photo::after {
+	content: "3";
+}
+.lkdt-list li:nth-child(4) .photo::after {
+	content: "4";
+}
+.lkdt-list .photo img {
+	display: block;
+	margin: 0 auto;
+}
+@media only screen and (min-width: 1400px) {
+	.lkdt-list li {
+		padding: 0 30px;
+	}
+}
+@media only screen and (max-width: 1024px) {
+	.lkdt-list li {
+		width: 50%;
+		margin: 30px 0 0;
+	}
+	.lkdt-list h3 {
+		margin: 30px 0 10px;
+		min-height: auto;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.lkdt-list li {
+		width: 100%;
+		margin: 20px 0 0;
+		font-size: 14px;
+	}
+	.lkdt-list h3 {
+		font-size: 16px;
+	}
+}
+.page-hl.page-kcn .banner {
+	background: transparent;
+}
+.page-hl .banner .bg img {
+	width: 100%;
+	height: 100vh;
+	object-fit: cover;
+}
+.page-hl .banner::before {
+	display: none;
+}
+.page-hl .kcn-title p {
+	color: #fff;
+	font-size: 24px;
+	margin: 20px 0 0;
+}
+.page-hl .anchor-foot .list-tabs li a {
+	width: 202px;
+}
+@media only screen and (min-width: 1400px) {
+	.page-hl .kcn-title p {
+		margin: 50px 0 0;
+	}
+}
+.lkdt-intro {
+	padding: 65px 0;
+	position: relative;
+}
+.gallery ul {
+	display: flex;
+	justify-content: space-between;
+}
+.gallery ul li {
+	width: 24%;
+	position: relative;
+}
+.page-hl .gallery p {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	background-color: rgba(246, 130, 32, 0.7);
+	color: #fff;
+	font-size: 20px;
+	text-transform: uppercase;
+	padding: 10px 0;
+}
+@media only screen and (min-width: 1400px) {
+	.page-hl .gallery p {
+		font-size: 24px;
+		padding: 20px 0;
+	}
+}
+.service-title {
+	padding: 60px 0;
+	text-align: center;
+	background: #666769;
+	color: #fff;
+	font-size: 24px;
+	font-weight: bold;
+}
+.service-title h2 {
+	font-size: 48px;
+	text-transform: uppercase;
+	margin: 0 0 15px;
+}
+.service-title h2 span {
+	color: #f68220;
+}
+@media only screen and (min-width: 1400px) {
+	.service-title {
+		padding: 80px 0;
+	}
+}
+.service-wrap {
+	display: flex;
+	background-color: #dedede;
+}
+.service-wrap > div {
+	width: 50%;
+}
+.service-cont {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.service-cont-text {
+	width: 70%;
+}
+.page-hl h3 {
+	font-size: 36px;
+	color: #f68220;
+	text-transform: uppercase;
+}
+.page-hl h3 span {
+	display: inline-block;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+	padding: 0 0 5px;
+}
+.page-hl p {
+	font-size: 14px;
+	line-height: 1.625;
+	margin: 15px 0 0;
+}
+.page-hl h4 {
+	font-size: 24px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+@media only screen and (min-width: 1400px) {
+	.page-hl h3 {
+		font-size: 48px;
+	}
+	.page-hl p {
+		font-size: 16px;
+		margin: 20px 0 0;
+	}
+}
+.xtsp {
+	padding: 100px 0;
+}
+.xtsp .slick {
+	margin: 25px 0 0;
+}
+.xtsp-flex {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.xtsp-flex .photo {
+	width: 49%;
+}
+.xtsp-cont {
+	width: 49%;
+}
+@media only screen and (min-width: 1400px) {
+	.xtsp-cont {
+		width: 46%;
 	}
 }
