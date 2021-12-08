@@ -3138,6 +3138,11 @@ body.bg {
 		font-size: 16px;
 	}
 }
+.page-hl .f-move {
+    right: 50%;
+    bottom: 4.6vw;
+    transform: translateX(50%);
+}
 .page-hl .banner .bg img {
 	width: 100%;
 	height: 100vh;
@@ -3160,7 +3165,20 @@ body.bg {
 		width: 202px;
 	}
 }
+@media only screen and (max-width: 1200px) {
+	.page-hl .f-move {
+		bottom: 6vw;
+	}
+}
+@media only screen and (max-width: 1000px) {
+	.page-hl .f-move {
+		bottom: 6.5vw;
+	}
+}
 @media only screen and (max-width: 767px) {
+	.page-hl .f-move {
+		bottom: 30vw;
+	}
 	.page-hl .kcn-title {
 		padding: 0 20px;
 	}
@@ -3182,31 +3200,45 @@ body.bg {
 .gallery ul li {
 	width: 24%;
 	position: relative;
+	overflow: hidden;
+}
+.page-hl .gallery .content {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 80%;
+	left: 0;
+	background-color: rgba(246, 130, 32, 0.7);
+	transition: 0.3s all;
+}
+.gallery ul li:hover .content {
+	top: 0;
+	transition: 0.3s all;
 }
 .page-hl .gallery p {
-	position: absolute;
-	left: 0;
-	bottom: 0;
-	width: 100%;
-	text-align: center;
-	background-color: rgba(246, 130, 32, 0.7);
+	font-size: 24px;
 	color: #fff;
 	font-size: 20px;
 	text-transform: uppercase;
+	text-align: center;
+	margin: 0;
 	padding: 10px 0;
-}
-@media only screen and (min-width: 1400px) {
-	.page-hl .gallery p {
-		font-size: 24px;
-		padding: 20px 0;
-	}
 }
 @media only screen and (max-width: 1024px) {
 	.gallery ul {
 		flex-wrap: wrap;
 	}
 	.gallery ul li {
-		width: 50%;
+		width: 49%;
+		margin: 0 0 15px;
+	}
+	.page-hl .gallery .content {
+		top: 85%;
+	}
+}
+@media only screen and (max-width: 768px) {
+	.page-hl .gallery .content {
+		top: 81%;
 	}
 }
 @media only screen and (max-width: 767px) {
@@ -3215,6 +3247,16 @@ body.bg {
 	}
 	.lkdt-intro {
 		padding: 30px 0;
+	}
+	.gallery ul {
+		padding: 0 15px;
+	}
+	.page-hl .gallery .content {
+		top: 86%;
+	}
+	.gallery ul li {
+		width: 100%;
+    	margin: 0 0 15px;
 	}
 }
 .service-title {
