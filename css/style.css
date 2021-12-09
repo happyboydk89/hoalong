@@ -390,7 +390,8 @@ a:hover img {
 		padding: 0 20px;
 	}
 }
-#fullpage {
+#fullpage,
+#fullpage2 {
 	color: #fff;
 }
 .about-us .sec0 {
@@ -3139,9 +3140,9 @@ body.bg {
 	}
 }
 .page-hl .f-move {
-    right: 50%;
-    bottom: 4.6vw;
-    transform: translateX(50%);
+	right: 50%;
+	bottom: 4.6vw;
+	transform: translateX(50%);
 }
 .page-hl .banner .bg img {
 	width: 100%;
@@ -3256,7 +3257,7 @@ body.bg {
 	}
 	.gallery ul li {
 		width: 100%;
-    	margin: 0 0 15px;
+		margin: 0 0 15px;
 	}
 }
 .service-title {

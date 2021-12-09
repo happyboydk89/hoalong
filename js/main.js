@@ -200,16 +200,20 @@ $(function () {
 			}
 			if (index == 2) {
 				var vw = $(window).width();
-				if (vw < 1024 && !$("#fullpage").hasClass("intro-htcl")) {
+				if (vw < 1024) {
 					$.fn.fullpage.setMouseWheelScrolling(false);
 					$.fn.fullpage.setAllowScrolling(false);
 				}
 			}
-			// if ($(this).hasClass("is-h-blue")) {
-			// 	$(".header, .page-timeline, .copyright").addClass("is-blue");
-			// } else {
-			// 	$(".header, .page-timeline, .copyright").removeClass("is-blue");
-			// }
+		},
+	});
+	$("#fullpage2").fullpage({
+		anchors: ["section0", "section1", "section2", "section3"],
+		fitToSection: false,
+		scrollOverflow: true,
+		scrollOverflowOptions: {
+			click: false,
+			preventDefault: false,
 		},
 	});
 	$(".j-up").click(function (e) {
@@ -227,7 +231,7 @@ $(function () {
 $(function () {
 	//smooth scroll
 	$("a[href*=\\#]:not([href=\\#])")
-		.not(".j-inline")
+		.not(".j-inline, .j-moveTo")
 		.click(function () {
 			if (location.pathname.replace(/^\//, "") == this.pathname.replace(/^\//, "") && location.hostname == this.hostname) {
 				var target = $(this.hash);
