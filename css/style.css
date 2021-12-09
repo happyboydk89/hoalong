@@ -3276,6 +3276,9 @@ body.bg {
 .service-title h2 span {
 	color: #f68220;
 }
+.page-hl .service-title p {
+	font-size: 24px;
+}
 @media only screen and (min-width: 1400px) {
 	.service-title {
 		padding: 80px 0;
@@ -3288,6 +3291,9 @@ body.bg {
 	}
 	.service-title h2 {
 		font-size: 24px;
+	}
+	.page-hl .service-title p {
+		font-size: 14px;
 	}
 }
 @media only screen and (max-width: 767px) {
@@ -3386,6 +3392,14 @@ body.bg {
 }
 .xtsp-cont {
 	width: 49%;
+}
+.xtsp.thanh-tuu .slick-prev {
+    transform: translateX(-120px);
+	background: url("../img/icon/arrow-left.png") no-repeat center / 23px;
+}
+.xtsp.thanh-tuu .slick-next {
+    transform: translateX(90px);
+	background: url("../img/icon/arrow-right.png") no-repeat center / 23px;
 }
 @media only screen and (min-width: 1400px) {
 	.xtsp-cont {
