@@ -1433,13 +1433,13 @@ a:hover img {
 	opacity: 0;
 }
 .ico-v1 span::after {
-	background: url(/img/invest/ico1-green.svg) no-repeat center;
+	background: url("../img/invest/ico1-green.svg") no-repeat center;
 }
 .ico-v2 span::after {
-	background: url(/img/invest/ico2-green.svg) no-repeat center;
+	background: url("../img/invest/ico2-green.svg") no-repeat center;
 }
 .ico-v3 span::after {
-	background: url(/img/invest/ico3-green.svg) no-repeat center;
+	background: url("../img/invest/ico3-green.svg") no-repeat center;
 }
 @media only screen and (min-width: 1024px) {
 	.lv-invest ul li a:hover .ico span::after {

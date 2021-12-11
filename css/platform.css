@@ -100,6 +100,7 @@
 @media only screen and (max-width: 1024px) {
 	#platform {
 		width: 100%;
+		padding: 60px 0 0;
 	}
 	.c-wrap {
 		padding: 0 10px;
@@ -113,6 +114,9 @@
 	}
 }
 @media only screen and (max-width: 767px) {
+	#platform {
+		padding: 40px 0 0;
+	}
 	#platform .slick-dots {
 		margin: 20px 0 0;
 	}
