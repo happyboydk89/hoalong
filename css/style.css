@@ -163,7 +163,7 @@ a:hover img {
 	width: 33px;
 	height: 33px;
 	position: absolute;
-	right: 2%;
+	right: 2.6%;
 	top: 50%;
 	z-index: 3;
 }
@@ -172,7 +172,7 @@ a:hover img {
 }
 @media only screen and (min-width: 1400px) {
 	.mv .slick-arrow {
-		right: 5%;
+		right: 5.5%;
 	}
 }
 .slick-prev {
@@ -189,7 +189,14 @@ a:hover img {
 }
 @media screen and (max-width: 1024px) {
 	.m-pager {
-		display: none;
+		/* display: none; */
+		font-size: 42px;
+	}
+	.mv .slick-prev {
+		margin: 140px 30px 0 0;
+	}
+	.mv .slick-next {
+		margin: 140px -10px 0 0;
 	}
 	.mv-text {
 		height: 100%;
@@ -203,6 +210,12 @@ a:hover img {
 	}
 	.mv-text h2 {
 		font-size: 32px;
+	}
+}
+
+@media only screen and (max-width: 1000px) {
+	.m-pager {
+		display: none;
 	}
 }
 @media only screen and (max-width: 767px) {
@@ -240,14 +253,14 @@ a:hover img {
 
 .v-modal-btn {
 	position: absolute;
-	right: 2%;
-	bottom: 22px;
+	right: 1%;
+	bottom: 10px;
 	color: #fff;
 	width: 76px;
 }
 .v-modal-btn a {
 	display: block;
-	padding: 66px 0 0;
+	padding: 60px 0 0;
 	background: url(../img/play.svg) no-repeat center top / 56px;
 	font-size: 12px;
 	text-align: center;
@@ -261,8 +274,8 @@ a:hover img {
 		bottom: 56px;
 	}
 	.v-modal-btn a {
-		padding: 94px 0 0;
-		background: url(../img/play.svg) no-repeat center top / 76px;
+		padding: 80px 0 0;
+		background: url(../img/play.svg) no-repeat center top / 55px;
 	}
 }
 @media only screen and (max-width: 767px) {
@@ -271,7 +284,7 @@ a:hover img {
 	}
 	.v-modal-btn a {
 		padding: 50px 0 0;
-		background-size: 40px;
+		background-size: 45px;
 	}
 }
 
@@ -503,10 +516,12 @@ a:hover img {
 }
 .about-content p {
 	margin: 0 0 20px;
+	text-align: justify;
 }
 .dots li {
 	list-style-type: disc;
 	margin: 0 0 0 20px;
+	text-align: justify;
 }
 @media only screen and (max-width: 1024px) {
 	.about-main {
@@ -737,6 +752,10 @@ a:hover img {
 	text-align: center;
 	position: relative;
 }
+.intro-tt .intro-nav a ,
+.intro-cctc .intro-nav a {
+	font-weight: 500;
+}
 .intro-nav a:hover {
 	color: #a3cc01;
 }
@@ -924,6 +943,12 @@ a:hover img {
 	line-height: 1.5;
 	text-align: center;
 	margin: 0 0 6vh;
+}
+@media only screen and (max-width: 1600px) {
+	.intro .cont .pic img {
+		max-width: 930px;
+		margin: 0 auto;
+	}
 }
 @media only screen and (max-width: 1024px) {
 	.intro1 {
@@ -1314,7 +1339,7 @@ a:hover img {
 		margin: 0 0 30px;
 	}
 	.invest-info p {
-		font-size: 18px;
+		font-size: 16px;
 		margin: 0 0 25px;
 	}
 }
@@ -1624,6 +1649,11 @@ a:hover img {
 	font-weight: 400;
 	font-size: 14px;
 	margin: 0 0 5px;
+}
+@media screen and (max-width:1440px) {
+	.kcn-slider dl dt {
+		font-size: 11px;
+	}
 }
 .kcn-slider dl dd {
 	font-size: 1.25vw;
@@ -2358,15 +2388,23 @@ body.bg {
 }
 
 .ttcp {
-	max-width: 1230px;
+	/* max-width: 1230px; */
+	display: flex;
+	flex-wrap: wrap;
 	margin: 0 auto;
-	padding: 0 15px;
+	/* padding: 0 15px; */
+	padding: 0;
 }
 .ttcp-cont {
-	padding: 50px 60px;
+	/* padding: 50px 60px; */
+	padding: 25px 20px;
+	flex: 0 0 32%;
+}
+.ttcp-frame {
+	flex: 0 0 68%;
 }
 .ttcp h2 {
-	font-size: 18px;
+	font-size: 17px;
 }
 .ttcp p {
 	font-size: 16px;
@@ -2409,6 +2447,23 @@ body.bg {
 .gpcn a:hover {
 	background-color: #185da6;
 }
+@media screen and (max-width:1200px) {
+	.ttcp-cont .copyright {
+		bottom: 12px;
+	}
+	.page-title.p-ttcp .list-tabs li a {
+		width: 130px;
+    	font-size: 14px;
+	}
+}
+@media screen and (max-width:1024px) { 
+	.ttcp-cont {
+		flex: 0 0 100%;
+	}
+	.ttcp-frame {
+		flex: 0 0 100%;
+	}
+}
 @media only screen and (min-width: 1600px) {
 	.ttcp {
 		max-width: 100%;
@@ -2416,6 +2471,7 @@ body.bg {
 		display: flex;
 	}
 	.ttcp-cont {
+		padding: 50px 60px; 
 		width: 720px;
 	}
 	.ttcp-frame {
@@ -2424,14 +2480,23 @@ body.bg {
 }
 @media only screen and (max-width: 1600px) {
 	.ttcp {
-		padding: 0 15px 70px;
+		/* padding: 0 15px 70px; */
+		padding: 0;
 	}
-	.ttcp-cont h2,
 	.ttcp-cont > p {
+		text-align: center;
+		font-size: 14px;
+	}
+	.ttcp h2 {
+		font-size: 16px;
 		text-align: center;
 	}
 	.gpcn {
-		margin: 40px auto 0;
+		margin: 20px auto 0;
+	}
+	.ttcp p.small-text {
+		padding: 20px 0 0;
+    	margin: 20px 0 0;
 	}
 }
 @media only screen and (max-width: 767px) {
@@ -2440,7 +2505,7 @@ body.bg {
 		text-align: left;
 	}
 	.ttcp-cont {
-		padding: 40px 0 20px;
+		padding: 40px 15px 20px;
 	}
 	.ttcp h2 {
 		font-size: 16px;
@@ -2467,7 +2532,7 @@ body.bg {
 @media only screen and (min-width: 1024px) {
 	.intro-tt [data-bg="0"],
 	.intro-tt .sec1 {
-		background: url(../img/about/thanh-tuu/bg1.jpg) no-repeat center bottom / cover;
+		background: url(../img/about/thanh-tuu/bg1.jpg) no-repeat right bottom / cover;
 	}
 	.intro-tt [data-bg="1"] {
 		background: url(../img/about/thanh-tuu/bg2.jpg) no-repeat center bottom / cover;
@@ -2587,9 +2652,10 @@ body.bg {
 
 @media only screen and (min-width: 768px) {
 	.intro-htcl .logos {
-		background: url(../img/about/hop-tac-chien-luoc/elips.svg) no-repeat center bottom;
-		width: 1007px;
-		height: 341px;
+		background: url(../img/about/hop-tac-chien-luoc/elips1.png) no-repeat center bottom;
+		background-size: cover;
+		width: 975px;
+    	height: 444px;
 		position: absolute;
 		left: 50%;
 		transform: translateX(-50%);
@@ -2597,29 +2663,40 @@ body.bg {
 	}
 	.intro-htcl .logos li {
 		position: absolute;
+		width: 180px;
+    	height: 140px;
+	}
+	.intro-htcl .logos li a {
+		display: block;
+		width: 100%;
+		height: 100%;
 	}
 	.lg1 {
-		left: -90px;
+		left: 10px;
 		top: 0;
+		transform: translateY(130%);
 	}
 	.lg2 {
 		left: 50%;
 		top: 0;
-		transform: translate(-50%, -90%);
+		transform: translate(-50%, 5%);
 	}
 	.lg3 {
-		right: -100px;
-		top: 50px;
+		right: 20px;
+		top: 0;
+		transform: translateY(130%);
 	}
 }
 @media (min-width: 768px) and (max-width: 1600px) {
 	.intro-htcl .logos {
 		background-size: 100% 100%;
-		width: 700px;
-		height: 290px;
+		width: 760px;
+    	height: 375px;
 	}
 	.lg1 {
-		left: -45px;
+		left: -10px;
+		top: 0;
+    	transform: translateY(110%);
 	}
 	.lg1 img {
 		width: 118px;
@@ -2631,8 +2708,8 @@ body.bg {
 		width: 131px;
 	}
 	.lg3 {
-		right: -50px;
-		top: 25px;
+		right: -10px;
+    	top: 0px;
 	}
 }
 @media only screen and (max-width: 767px) {
@@ -2666,7 +2743,7 @@ body.bg {
 	padding: 10vh 0 0;
 }
 .tt-cont .photo {
-	width: 400px;
+	width: 650px;
 	margin: 0 auto;
 }
 .tt-cont {
@@ -2682,6 +2759,7 @@ body.bg {
 	margin: 0 0 20px;
 	text-transform: uppercase;
 }
+
 @media only screen and (min-width: 1400px) {
 	.tt-cont dd {
 		margin: 0 0 30px;
@@ -2700,7 +2778,7 @@ body.bg {
 		padding: 20px 0 50px;
 	}
 	.tt-cont .photo {
-		width: 100%;
+		width: 96%;
 	}
 	.tt-cont {
 		text-align: left;
@@ -2803,15 +2881,16 @@ body.bg {
 	padding: 30px 0 0;
 }
 .cctc-list1 li {
-	width: 450px;
-	margin: 0 25px 35px;
+	/* width: 415px; */
+	width: 25%;
+	margin: 0 20px 35px;
 	display: flex;
 }
 .cctc-list1 .photo {
-	width: 38%;
+	width: 32%;
 }
 .cctc-list1 .cctc-text {
-	width: 62%;
+	width: 68%;
 	padding: 0 0 0 12px;
 }
 .cctc h3 {
@@ -2885,7 +2964,7 @@ body.bg {
 	padding: 0 0 20px;
 }
 .cctc-list2 li {
-	width: 324px;
+	width: 300px;
 	margin: 0 35px 35px;
 	text-align: center;
 }

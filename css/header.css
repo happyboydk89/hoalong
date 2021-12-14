@@ -2,7 +2,7 @@
 /* header */
 .header {
 	width: 100%;
-	position: absolute;
+	position: fixed;
 	left: 0;
 	top: 0;
 	display: flex;
@@ -10,6 +10,7 @@
 	justify-content: space-between;
 	padding: 22px 2% 40px;
 	color: #fff;
+	transition: 0.2s all;
 }
 @media only screen and (min-width: 1600px) {
 	.header {
@@ -321,6 +322,11 @@
 @media screen and (min-width: 1024px) {
 	.header.is-blue {
 		color: #004988;
+	}
+	header.header.is-blue.fixed {
+		background: #fff;
+		box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+		transition: 0.2s all;
 	}
 	.header.is-blue .gnav > ul.gnav-main,
 	.header.is-blue .gnav .submenu {

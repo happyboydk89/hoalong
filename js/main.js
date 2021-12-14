@@ -226,6 +226,26 @@ $(function () {
 		$.fn.fullpage.moveSectionDown();
 		return false;
 	});
+	
+
+
+	$(window).scroll(function(){
+		var banner = $(".banner").height();
+		var sbHeight = window.pageYOffset;
+		$(".header.is-blue").addClass("fixed");
+		if($(window).scrollTop() === 0) {
+			$(".header.is-blue").removeClass("fixed");
+		  }
+		if(sbHeight >= banner -118){
+			$(".page-kcn .anchor-foot").addClass("fixed");
+		}
+		else {
+			$(".page-kcn .anchor-foot").removeClass("fixed");
+		}
+		// console.log(sbHeight);
+	  });
+
+
 });
 
 $(function () {
