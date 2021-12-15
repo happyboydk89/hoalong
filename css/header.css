@@ -11,6 +11,7 @@
 	padding: 22px 2% 40px;
 	color: #fff;
 	transition: 0.2s all;
+	z-index: 9;
 }
 @media only screen and (min-width: 1600px) {
 	.header {

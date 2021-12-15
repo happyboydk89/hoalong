@@ -830,7 +830,7 @@ a:hover img {
 	}
 }
 @media only screen and (max-width: 767px) {
-	.intro-nav li {
+	.intro-nav li ,.intro-nav.spacer-20 li {
 		width: 50%;
 		margin: 0 0 30px;
 	}
@@ -851,6 +851,7 @@ a:hover img {
 		bottom: 10px;
 		width: calc(100% - 20px);
 	}
+	
 }
 
 .hli-7 {
@@ -2949,7 +2950,7 @@ body.bg {
 		font-size: 20px;
 	}
 	.cctc p {
-		font-size: 16px;
+		font-size: 15px;
 	}
 }
 @media only screen and (max-width: 1399px) {
@@ -3196,11 +3197,11 @@ body.bg {
 	line-height: 1.625;
 }
 .lkdt-list h3 {
-	font-size: 18px;
+	font-size: 17px;
 	font-family: "Lato Bold";
 	text-transform: uppercase;
-	margin: 50px 0 15px;
-	min-height: 58px;
+	margin: 40px 0 15px;
+	min-height: 55px;
 }
 .lkdt-list .photo {
 	display: block;
@@ -3236,6 +3237,7 @@ body.bg {
 .lkdt-list .photo img {
 	display: block;
 	margin: 0 auto;
+	height: 170px;
 }
 @media only screen and (min-width: 1400px) {
 	.lkdt-list li {
@@ -3260,6 +3262,9 @@ body.bg {
 	}
 	.lkdt-list h3 {
 		font-size: 16px;
+	}
+	.lkdt-list .photo img {
+		height: inherit;
 	}
 }
 .page-hl .f-move {
