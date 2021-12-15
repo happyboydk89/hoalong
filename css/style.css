@@ -1,4 +1,13 @@
 @charset "utf-8";
+/* @font-face {
+	font-family: "Lato";
+	src: local("Lato"), url(../fonts/la-regular-400.woff2) format("woff2"), url(../fonts/la-regular-400.woff) format("woff"), url(../fonts/la-regular-400.eot) format("opentype");
+}
+@font-face {
+	font-family: "Lato Solid";
+	font-weight: 900;
+	src: url(../fonts/la-solid-900.woff2) format("woff2"), url(../fonts/la-solid-900.woff) format("woff"), url(../fonts/la-solid-900.eot) format("opentype");
+} */
 body {
 	font-family: "Lato", sans-serif;
 	-webkit-text-size-adjust: 100%;
@@ -379,7 +388,7 @@ a:hover img {
 	left: 2%;
 	bottom: 22px;
 	color: #fff;
-	font-size: 12px;
+	font-size: 11px;
 }
 .copyright.is-blue {
 	color: #000;
@@ -388,6 +397,7 @@ a:hover img {
 	.copyright {
 		left: 5%;
 		bottom: 56px;
+		font-size: 12px;
 	}
 }
 @media only screen and (max-width: 767px) {
@@ -752,7 +762,7 @@ a:hover img {
 	text-align: center;
 	position: relative;
 }
-.intro-tt .intro-nav a ,
+.intro-tt .intro-nav a,
 .intro-cctc .intro-nav a {
 	font-weight: 500;
 }
@@ -1650,7 +1660,7 @@ a:hover img {
 	font-size: 14px;
 	margin: 0 0 5px;
 }
-@media screen and (max-width:1440px) {
+@media screen and (max-width: 1440px) {
 	.kcn-slider dl dt {
 		font-size: 11px;
 	}
@@ -2092,6 +2102,12 @@ a:hover img {
 	margin: 0 auto 50px;
 	background: url(../img/ico-down.svg) no-repeat right 15px center #ededed;
 }
+.filter-box.is-blue {
+	background: url(../img/ico-down-blue.svg) no-repeat right 15px center #fff;
+	color: #004988;
+	width: 190px;
+	margin: 0 auto 30px;
+}
 .filter-box select {
 	font-size: 14px;
 	padding: 13px 20px;
@@ -2398,10 +2414,14 @@ body.bg {
 .ttcp-cont {
 	/* padding: 50px 60px; */
 	padding: 25px 20px;
-	flex: 0 0 32%;
+	flex: 0 0 34%;
 }
 .ttcp-frame {
-	flex: 0 0 68%;
+	flex: 0 0 66%;
+}
+.ttcp-frame img {
+	height: 100%;
+	object-fit: cover;
 }
 .ttcp h2 {
 	font-size: 17px;
@@ -2447,16 +2467,16 @@ body.bg {
 .gpcn a:hover {
 	background-color: #185da6;
 }
-@media screen and (max-width:1200px) {
+@media screen and (max-width: 1200px) {
 	.ttcp-cont .copyright {
 		bottom: 12px;
 	}
 	.page-title.p-ttcp .list-tabs li a {
 		width: 130px;
-    	font-size: 14px;
+		font-size: 14px;
 	}
 }
-@media screen and (max-width:1024px) { 
+@media screen and (max-width: 1024px) {
 	.ttcp-cont {
 		flex: 0 0 100%;
 	}
@@ -2471,7 +2491,7 @@ body.bg {
 		display: flex;
 	}
 	.ttcp-cont {
-		padding: 50px 60px; 
+		padding: 50px 60px;
 		width: 720px;
 	}
 	.ttcp-frame {
@@ -2483,20 +2503,23 @@ body.bg {
 		/* padding: 0 15px 70px; */
 		padding: 0;
 	}
+	.ttcp-cont {
+		padding-bottom: 50px;
+	}
 	.ttcp-cont > p {
-		text-align: center;
+		/* text-align: center; */
 		font-size: 14px;
 	}
 	.ttcp h2 {
 		font-size: 16px;
-		text-align: center;
+		/* text-align: center; */
 	}
 	.gpcn {
 		margin: 20px auto 0;
 	}
 	.ttcp p.small-text {
 		padding: 20px 0 0;
-    	margin: 20px 0 0;
+		margin: 20px 0 0;
 	}
 }
 @media only screen and (max-width: 767px) {
@@ -2655,7 +2678,7 @@ body.bg {
 		background: url(../img/about/hop-tac-chien-luoc/elips1.png) no-repeat center bottom;
 		background-size: cover;
 		width: 975px;
-    	height: 444px;
+		height: 444px;
 		position: absolute;
 		left: 50%;
 		transform: translateX(-50%);
@@ -2664,7 +2687,7 @@ body.bg {
 	.intro-htcl .logos li {
 		position: absolute;
 		width: 180px;
-    	height: 140px;
+		height: 140px;
 	}
 	.intro-htcl .logos li a {
 		display: block;
@@ -2691,12 +2714,12 @@ body.bg {
 	.intro-htcl .logos {
 		background-size: 100% 100%;
 		width: 760px;
-    	height: 375px;
+		height: 375px;
 	}
 	.lg1 {
 		left: -10px;
 		top: 0;
-    	transform: translateY(110%);
+		transform: translateY(110%);
 	}
 	.lg1 img {
 		width: 118px;
@@ -2709,7 +2732,7 @@ body.bg {
 	}
 	.lg3 {
 		right: -10px;
-    	top: 0px;
+		top: 0px;
 	}
 }
 @media only screen and (max-width: 767px) {
@@ -2964,12 +2987,18 @@ body.bg {
 	padding: 0 0 20px;
 }
 .cctc-list2 li {
-	width: 300px;
-	margin: 0 35px 35px;
+	width: 280px;
+	margin: 0 10px 35px;
 	text-align: center;
 }
 .cctc-list2 .photo {
 	margin: 0 0 30px;
+}
+@media only screen and (min-width: 1400px) {
+	.cctc-list2 li {
+		width: 300px;
+		margin: 0 35px 35px;
+	}
 }
 @media only screen and (min-width: 1025px) {
 	.cctc-list2 .photo {
@@ -3473,11 +3502,11 @@ body.bg {
 	width: 49%;
 }
 .xtsp.thanh-tuu .slick-prev {
-    transform: translateX(-100px);
+	transform: translateX(-100px);
 	background: url("../img/icon/arrow-left.png") no-repeat center / 23px;
 }
 .xtsp.thanh-tuu .slick-next {
-    transform: translateX(70px);
+	transform: translateX(70px);
 	background: url("../img/icon/arrow-right.png") no-repeat center / 23px;
 }
 @media only screen and (min-width: 1400px) {
