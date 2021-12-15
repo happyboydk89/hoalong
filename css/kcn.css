@@ -28,7 +28,7 @@
 }
 .kcn-title h2 {
 	font-size: 64px;
-	font-weight: bold;
+	font-family: "Lato Bold";
 }
 .kcn-title h3 {
 	font-size: 36px;
@@ -135,12 +135,12 @@
 }
 .page-kcn .box-head h3 {
 	font-size: 36px;
-	font-weight: bold;
+	font-family: "Lato Bold";
 }
 .page-kcn .box-head p {
 	color: #a3cc01;
 	font-size: 36px;
-	font-weight: bold;
+	font-family: "Lato Bold";
 }
 .box-tt {
 	background: #f1f9ff;
@@ -174,7 +174,7 @@
 .box-tt .col-left .ts {
 	color: #a3cc01;
 	font-size: 16px;
-	font-weight: bold;
+	font-family: "Lato Bold";
 }
 .box-tt .col-left .ts .large {
 	font-size: 267%;
@@ -224,7 +224,7 @@
 }
 .vtdl .list li h4 {
 	font-size: 24px;
-	font-weight: bold;
+	font-family: "Lato Bold";
 	margin-bottom: 30px;
 }
 .vtdl .list li p {
@@ -248,7 +248,7 @@
 }
 .dsl .ttl {
 	font-size: 18px;
-	font-weight: bold;
+	font-family: "Lato Bold";
 	margin-bottom: 30px;
 }
 .dsl p {
@@ -392,7 +392,7 @@
 .page-kcn dl dd {
 	color: #a3cc01;
 	font-size: 20px;
-	font-weight: bold;
+	font-family: "Lato Bold";
 	margin-bottom: 15px;
 }
 .ti-slider dl .txt {
@@ -408,7 +408,7 @@
 .lhbg .title h3 {
 	font-size: 36px;
 	text-align: center;
-	font-weight: bold;
+	font-family: "Lato Bold";
 }
 .lhbg {
 	background: url("../img/invest/kcn/bg-dots.png") no-repeat center center;
@@ -433,7 +433,7 @@
 	max-width: 100%;
 	display: block;
 	font-size: 18px;
-	font-weight: bold;
+	font-family: "Lato Bold";
 	margin: 0 0 10px;
 	cursor: inherit;
 }
@@ -461,7 +461,7 @@
 	border: 1px solid #004988;
 	background: #004988;
 	font-size: 18px;
-	font-weight: bold;
+	font-family: "Lato Bold";
 	text-align: center;
 	transition: 0.3s all;
 }
@@ -495,7 +495,7 @@
 .lhbg .profile h3 {
 	font-size: 36px;
 	margin: 0 0 40px;
-	font-weight: bold;
+	font-family: "Lato Bold";
 }
 .lhbg p {
 	color: #fff;
@@ -813,7 +813,7 @@
 }
 .duyc .col-left h3 {
 	font-size: 36px;
-	font-weight: bold;
+	font-family: "Lato Bold";
 	margin: 0 0 30px;
 }
 .duyc .col-right {
@@ -833,7 +833,7 @@
 }
 .nx-full .title h3 {
 	font-size: 36px;
-	font-weight: bold;
+	font-family: "Lato Bold";
 	text-align: center;
 	padding: 50px 0 150px;
 }
@@ -845,7 +845,7 @@
 }
 .nx-full .box-dv h3 {
 	font-size: 36px;
-	font-weight: bold;
+	font-family: "Lato Bold";
 	margin: 0 0 120px;
 }
 .nx-full .box-dv ul {
@@ -873,7 +873,7 @@
 .nx-full .box-dv ul li .ttl {
 	color: #1677be;
 	font-size: 18px;
-	font-weight: 500;
+	font-family: "Lato Medium";
 	margin: 0 0 10px;
 }
 .nx-full .box-dv ul li .txt {
@@ -1021,7 +1021,7 @@
 }
 .ttl-line {
 	font-size: 36px;
-	font-weight: 700;
+	font-family: "Lato Bold";
 	text-transform: uppercase;
 	text-align: center;
 	margin: 0 0 50px;
@@ -1136,7 +1136,7 @@
 	color: #1677be;
 	font-size: 18px;
 	text-align: center;
-	font-weight: 700;
+	font-family: "Lato Bold";
 }
 
 @media screen and (max-width: 1000px) {
@@ -1299,7 +1299,7 @@
 }
 .page-kcn-ct .box-tqda ul li h3 {
 	font-size: 24px;
-	font-weight: bold;
+	font-family: "Lato Bold";
 	margin: 0 0 20px;
 }
 .page-kcn-ct .box-tqda ul li p {

@@ -1,15 +1,22 @@
 @charset "utf-8";
-/* @font-face {
-	font-family: "Lato";
-	src: local("Lato"), url(../fonts/la-regular-400.woff2) format("woff2"), url(../fonts/la-regular-400.woff) format("woff"), url(../fonts/la-regular-400.eot) format("opentype");
+@font-face {
+	font-family: "Lato Regular";
+	src: local("Lato Regular"), url(../fonts/Lato-Regular.ttf) format("truetype");
 }
 @font-face {
-	font-family: "Lato Solid";
-	font-weight: 900;
-	src: url(../fonts/la-solid-900.woff2) format("woff2"), url(../fonts/la-solid-900.woff) format("woff"), url(../fonts/la-solid-900.eot) format("opentype");
+	font-family: "Lato Medium";
+	src: local("Lato Medium"), url(../fonts/Lato-Medium_0.ttf) format("truetype");
+}
+@font-face {
+	font-family: "Lato Bold";
+	src: local("Lato Bold"), url(../fonts/Lato-Bold.ttf) format("truetype");
+}
+/* @font-face {
+	font-family: "Lato Black";
+	src: local("Lato Black"), url(../fonts/Lato-Black.ttf) format("truetype");
 } */
 body {
-	font-family: "Lato", sans-serif;
+	font-family: "Lato Regular", sans-serif;
 	-webkit-text-size-adjust: 100%;
 	background-color: #fff;
 	color: #000;
@@ -119,7 +126,7 @@ a:hover img {
 }
 .mv-text h2 {
 	font-size: 52px;
-	font-weight: 700;
+	font-family: "Lato Bold";
 	line-height: 1.2;
 	margin: 0 0 15px;
 	opacity: 0;
@@ -757,14 +764,14 @@ a:hover img {
 	display: block;
 	color: #fff;
 	font-size: 18px;
-	font-weight: 700;
 	line-height: 22px;
 	text-align: center;
+	text-transform: uppercase;
 	position: relative;
 }
 .intro-tt .intro-nav a,
 .intro-cctc .intro-nav a {
-	font-weight: 500;
+	font-family: "Lato Medium";
 }
 .intro-nav a:hover {
 	color: #a3cc01;
@@ -898,6 +905,7 @@ a:hover img {
 	align-items: center;
 	justify-content: center;
 	font-size: 16px;
+	line-height: 1;
 	background-color: #fff;
 	color: #004988;
 	cursor: pointer;
@@ -949,7 +957,7 @@ a:hover img {
 }
 .intro1 h2 {
 	font-size: 24px;
-	font-weight: 700;
+	font-family: "Lato Bold";
 	line-height: 1.5;
 	text-align: center;
 	margin: 0 0 6vh;
@@ -1016,6 +1024,7 @@ a:hover img {
 }
 .tq-list h3 {
 	font-size: 1.6vw;
+	font-family: "Lato Bold";
 	color: #1677be;
 	margin: 0 0 2.4vh;
 }
@@ -1173,6 +1182,7 @@ a:hover img {
 }
 .vh-list h3 {
 	font-size: 1.6vw;
+	font-family: "Lato Bold";
 	line-height: 1.2;
 	color: #1677be;
 	margin: 0 0 2vh;
@@ -1330,7 +1340,7 @@ a:hover img {
 }
 .invest-info h2 {
 	font-size: 24px;
-	font-weight: 700;
+	font-family: "Lato Bold";
 	color: #a3cc01;
 	max-width: 46%;
 }
@@ -1399,7 +1409,7 @@ a:hover img {
 	padding: 0 0 60px;
 }
 .lv-invest h3 {
-	font-weight: 700;
+	font-family: "Lato Bold";
 	font-size: 20px;
 	color: #a3cc01;
 	margin: 0 0 30px;
@@ -1427,6 +1437,7 @@ a:hover img {
 }
 .lv-invest h4 {
 	font-size: 16px;
+	font-family: "Lato Bold";
 	padding: 20px 0 10px;
 	transition: 0.3s;
 }
@@ -1529,6 +1540,7 @@ a:hover img {
 }
 .kcn-heading h1 {
 	font-size: 28px;
+	font-family: "Lato Bold";
 	margin: 0 0 5px;
 }
 .kcn .y-scroll {
@@ -1544,6 +1556,7 @@ a:hover img {
 }
 .ht-kcn h2 {
 	font-size: 24px;
+	font-family: "Lato Bold";
 }
 .ht-kcn p {
 	font-size: 16px;
@@ -1667,6 +1680,7 @@ a:hover img {
 }
 .kcn-slider dl dd {
 	font-size: 1.25vw;
+	font-family: "Lato Bold";
 	color: #a3cc01;
 	transition: 0.3s;
 }
@@ -1913,7 +1927,7 @@ a:hover img {
 }
 .m-ttl {
 	font-size: 36px;
-	font-weight: 700;
+	font-family: "Lato Bold";
 	text-transform: uppercase;
 	text-align: center;
 	margin: 0 0 80px;
@@ -2142,7 +2156,7 @@ a:hover img {
 }
 .vttd-list a {
 	color: #1677be;
-	font-weight: 500;
+	font-family: "Lato Medium";
 }
 .vttd-list a span {
 	display: inline-block;
@@ -2447,7 +2461,7 @@ body.bg {
 }
 .gpcn h3 {
 	font-size: 36px;
-	font-weight: 700;
+	font-family: "Lato Bold";
 	color: #004988;
 	margin: 0 0 25px;
 }
@@ -2893,7 +2907,7 @@ body.bg {
 .cctc h2 {
 	text-align: center;
 	font-size: 36px;
-	font-weight: bold;
+	font-family: "Lato Bold";
 	color: #fff;
 	padding: 50px 0 30px;
 }
@@ -2918,6 +2932,7 @@ body.bg {
 }
 .cctc h3 {
 	font-size: 18px;
+	font-family: "Lato Bold";
 	margin: 0 0 5px;
 }
 .cctc p {
@@ -3081,7 +3096,7 @@ body.bg {
 }
 .htcl-info h3 {
 	font-size: 24px;
-	font-weight: bold;
+	font-family: "Lato Bold";
 	color: #a3cc01;
 	text-transform: uppercase;
 	margin: 0 0 10px;
@@ -3182,7 +3197,7 @@ body.bg {
 }
 .lkdt-list h3 {
 	font-size: 18px;
-	font-weight: bold;
+	font-family: "Lato Bold";
 	text-transform: uppercase;
 	margin: 50px 0 15px;
 	min-height: 58px;
@@ -3374,7 +3389,7 @@ body.bg {
 	background: #666769;
 	color: #fff;
 	font-size: 24px;
-	font-weight: bold;
+	font-family: "Lato Bold";
 }
 .service-title h2 {
 	font-size: 48px;
@@ -3445,7 +3460,7 @@ body.bg {
 }
 .page-hl h4 {
 	font-size: 24px;
-	font-weight: bold;
+	font-family: "Lato Bold";
 	text-transform: uppercase;
 }
 @media only screen and (min-width: 1400px) {
@@ -3558,7 +3573,7 @@ body.bg {
 }
 .lkdt-intro-title h2 {
 	font-size: 54px;
-	font-weight: bold;
+	font-family: "Lato Bold";
 	color: #f68220;
 }
 .lkdt-intro-txt {
