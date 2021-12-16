@@ -226,26 +226,21 @@ $(function () {
 		$.fn.fullpage.moveSectionDown();
 		return false;
 	});
-	
 
-
-	$(window).scroll(function(){
+	$(window).scroll(function () {
 		var banner = $(".banner").height();
 		var sbHeight = window.pageYOffset;
 		$(".header.is-blue").addClass("fixed");
-		if($(window).scrollTop() === 0) {
+		if ($(window).scrollTop() === 0) {
 			$(".header.is-blue").removeClass("fixed");
-		  }
-		if(sbHeight >= banner -118){
-			$(".page-kcn .anchor-foot").addClass("fixed");
 		}
-		else {
+		if (sbHeight >= banner - 118) {
+			$(".page-kcn .anchor-foot").addClass("fixed");
+		} else {
 			$(".page-kcn .anchor-foot").removeClass("fixed");
 		}
 		// console.log(sbHeight);
-	  });
-
-
+	});
 });
 
 $(function () {
@@ -327,5 +322,11 @@ $(function () {
 		} else {
 			h.removeClass("is-scrolling");
 		}
+	});
+
+	$(".maxheight_show .j-toggle").on("click", function (e) {
+		e.preventDefault();
+		$(this).closest(".maxheight_show").next(".maxheight_hide").slideDown();
+		$(this).hide();
 	});
 });
