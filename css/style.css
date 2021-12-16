@@ -2574,7 +2574,7 @@ body.bg {
 @media only screen and (min-width: 1024px) {
 	.intro-tt [data-bg="0"],
 	.intro-tt .sec1 {
-		background: url(../img/about/thanh-tuu/bg1.jpg) no-repeat right bottom / cover;
+		background: url(../img/about/thanh-tuu/bg01.jpg) no-repeat right bottom / cover;
 	}
 	.intro-tt [data-bg="1"] {
 		background: url(../img/about/thanh-tuu/bg2.jpg) no-repeat center bottom / cover;
