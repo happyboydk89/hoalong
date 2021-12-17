@@ -2492,7 +2492,7 @@ body.bg {
 	}
 	.page-title.p-ttcp .list-tabs li a {
 		width: 130px;
-		font-size: 14px;
+		font-size: 13px;
 	}
 }
 @media screen and (max-width: 1024px) {
@@ -3650,4 +3650,20 @@ body.bg {
 }
 .maxheight_show .j-toggle:hover {
 	opacity: 0.7;
+}
+
+@media screen and (max-width:767px) {
+	.v-modal-content {
+		overflow: hidden;
+		padding-top: 56.25%;
+		position: relative;
+	} 
+	.v-modal-content iframe {
+		position: absolute;
+		top: 0;
+		left: 0;
+		border: 0;
+		width: 100%;
+		height: 100%;
+	}
 }
