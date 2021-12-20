@@ -273,10 +273,10 @@
 	background: url("../img/invest/kcn/bg-dots.png") no-repeat center center;
 	background-size: cover;
 }
-.tthh .container {
+/* .tthh .container {
 	padding-top: 200px;
 	margin: -200px auto 0;
-}
+} */
 .tthh-list {
 	width: 100%;
 	overflow: auto;
@@ -414,10 +414,10 @@
 	font-weight: 400;
 }
 /* lhbg */
-.lhbg .lhbg-wrap {
+/* .lhbg .lhbg-wrap {
 	padding-top: 150px;
 	margin-top: -150px;
-}
+} */
 .lhbg .title {
 	background: #004988;
 	padding: 70px 0 130px;
@@ -430,7 +430,7 @@
 .lhbg {
 	background: url("../img/invest/kcn/bg-dots.png") no-repeat center center;
 	background-size: cover;
-	padding: 0 0 100px;
+	padding: 1px 0 100px;
 }
 .lhbg .box-form {
 	background: #f1f9ff;
@@ -576,10 +576,10 @@
 	background: #f1f9ff;
 	padding: 100px 0;
 }
-.ti-wrap {
+/* .ti-wrap {
 	padding-top: 200px;
 	margin-top: -200px;
-}
+} */
 
 @media screen and (max-width: 1600px) {
 	.anchor-foot .list-tabs li a {
@@ -1253,8 +1253,8 @@
 }
 .page-kcn-ct .box-tqda {
 	background: #fff;
-	padding: 200px 0 100px;
-	margin-top: -100px;
+	padding: 100px 0 100px;
+	/* margin-top: -100px; */
 	position: relative;
 }
 .page-kcn-ct .box-tqda .box-head::after {
@@ -1341,8 +1341,8 @@
 }
 .sdvt {
 	background: #f1f9ff;
-	padding: 200px 0 100px;
-	margin-top: -100px;
+	padding: 100px 0 100px;
+	/* margin-top: -100px; */
 }
 .sdvt .img {
 	max-width: 1140px;
