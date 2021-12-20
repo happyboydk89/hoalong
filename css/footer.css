@@ -106,6 +106,14 @@ footer#footer {
 	margin-bottom: 5px;
 	text-align: right;
 }
+#footer .foot-col .map iframe {
+    object-fit: cover;
+	width: 100%;
+}
+#footer .foot-col .map {
+    height: 100px;
+	overflow: hidden;
+}
 
 @media screen and (max-width: 1000px) {
 	#footer .foot-col .copyright {
