@@ -244,6 +244,7 @@ $(function () {
 });
 
 $(function () {
+	var top = 160;
 	//smooth scroll
 	$("a[href*=\\#]:not([href=\\#])")
 		.not(".j-inline, .j-moveTo")
@@ -254,7 +255,7 @@ $(function () {
 				if (target.length) {
 					$("html,body").animate(
 						{
-							scrollTop: target.offset().top,
+							scrollTop: target.offset().top - top,
 						},
 						1000
 					);

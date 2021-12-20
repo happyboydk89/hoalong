@@ -66,6 +66,16 @@
 	z-index: 9;
 	background: #c4c4c4;
 }
+@media only screen and (max-width: 1024px) {
+	.anchor-foot.fixed {
+		top: 96px;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.anchor-foot.fixed {
+		top: 60px;
+	}
+}
 .anchor-foot .list-tabs li {
 	background: #004988;
 	display: inline-block;
@@ -109,7 +119,7 @@
 	background: #f1f1f1;
 	color: rgba(0, 0, 0, 0.8);
 	text-align: center;
-	padding: 170px 0 150px;
+	padding: 100px 0 150px;
 	position: relative;
 }
 .box-tq p {
@@ -199,8 +209,7 @@
 
 /* vtdl */
 .vtdl {
-	padding: 170px 0 100px;
-	margin-top: -70px;
+	padding: 100px 0;
 }
 .vtdl .inner-vt {
 	width: 1315px;
@@ -244,8 +253,7 @@
 .dsl {
 	background: #f1f1f1;
 	text-align: center;
-	padding: 170px 0 100px;
-	margin-top: -70px;
+	padding: 100px 0;
 }
 .dsl .ttl {
 	font-size: 18px;
@@ -556,14 +564,13 @@
 
 /* csht */
 .csht {
-	padding: 170px 0 170px;
-	margin-top: -70px;
+	padding: 100px 0;
 }
 
 /* ti */
 .ti {
 	background: #f1f9ff;
-	padding: 100px 0 100px;
+	padding: 100px 0;
 }
 .ti-wrap {
 	padding-top: 200px;
