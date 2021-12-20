@@ -57,6 +57,7 @@
 	bottom: 0;
 	text-align: center;
 	width: 100%;
+	z-index: 9;
 }
 .anchor-foot.fixed {
 	position: fixed;
@@ -263,6 +264,10 @@
 	padding: 100px 0;
 	background: url("../img/invest/kcn/bg-dots.png") no-repeat center center;
 	background-size: cover;
+}
+.tthh .container {
+    padding-top: 200px;
+    margin: -200px auto 0;
 }
 .tthh-list {
 	width: 100%;
@@ -559,7 +564,10 @@
 .ti {
 	background: #f1f9ff;
 	padding: 100px 0 100px;
-	margin-top: -70px;
+}
+.ti-wrap {
+    padding-top: 200px;
+    margin-top: -200px;
 }
 
 @media screen and (max-width: 1600px) {
@@ -1233,7 +1241,9 @@
 	transform: scale(1.2);
 }
 .page-kcn-ct .box-tqda {
-	padding: 60px 0 100px;
+	background: #fff;
+	padding: 200px 0 100px;
+	margin-top: -100px;
 	position: relative;
 }
 .page-kcn-ct .box-tqda .box-head::after {
@@ -1320,7 +1330,8 @@
 }
 .sdvt {
 	background: #f1f9ff;
-	padding: 80px 0;
+    padding: 200px 0 100px;
+    margin-top: -100px;
 }
 .sdvt .img {
 	max-width: 1140px;
