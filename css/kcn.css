@@ -119,7 +119,7 @@
 	background: #f1f1f1;
 	color: rgba(0, 0, 0, 0.8);
 	text-align: center;
-	padding: 100px 0 150px;
+	padding: 170px 0 150px;
 	position: relative;
 }
 .box-tq p {
@@ -414,6 +414,10 @@
 	font-weight: 400;
 }
 /* lhbg */
+.lhbg .lhbg-wrap {
+	padding-top: 150px;
+	margin-top: -150px;
+}
 .lhbg .title {
 	background: #004988;
 	padding: 70px 0 130px;
