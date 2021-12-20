@@ -28,7 +28,7 @@
 }
 .kcn-title h2 {
 	font-size: 64px;
-	font-family: "Lato Bold";
+	font-weight: bold;
 }
 .kcn-title h3 {
 	font-size: 36px;
@@ -136,12 +136,12 @@
 }
 .page-kcn .box-head h3 {
 	font-size: 36px;
-	font-family: "Lato Bold";
+	font-weight: bold;
 }
 .page-kcn .box-head p {
 	color: #a3cc01;
 	font-size: 36px;
-	font-family: "Lato Bold";
+	font-weight: bold;
 }
 .box-tt {
 	background: #f1f9ff;
@@ -175,7 +175,7 @@
 .box-tt .col-left .ts {
 	color: #a3cc01;
 	font-size: 16px;
-	font-family: "Lato Bold";
+	font-weight: bold;
 }
 .box-tt .col-left .ts .large {
 	font-size: 267%;
@@ -225,7 +225,7 @@
 }
 .vtdl .list li h4 {
 	font-size: 24px;
-	font-family: "Lato Bold";
+	font-weight: bold;
 	margin-bottom: 30px;
 }
 .vtdl .list li p {
@@ -249,7 +249,7 @@
 }
 .dsl .ttl {
 	font-size: 18px;
-	font-family: "Lato Bold";
+	font-weight: bold;
 	margin-bottom: 30px;
 }
 .dsl p {
@@ -266,8 +266,8 @@
 	background-size: cover;
 }
 .tthh .container {
-    padding-top: 200px;
-    margin: -200px auto 0;
+	padding-top: 200px;
+	margin: -200px auto 0;
 }
 .tthh-list {
 	width: 100%;
@@ -397,7 +397,7 @@
 .page-kcn dl dd {
 	color: #a3cc01;
 	font-size: 20px;
-	font-family: "Lato Bold";
+	font-weight: bold;
 	margin-bottom: 15px;
 }
 .ti-slider dl .txt {
@@ -413,7 +413,7 @@
 .lhbg .title h3 {
 	font-size: 36px;
 	text-align: center;
-	font-family: "Lato Bold";
+	font-weight: bold;
 }
 .lhbg {
 	background: url("../img/invest/kcn/bg-dots.png") no-repeat center center;
@@ -438,7 +438,7 @@
 	max-width: 100%;
 	display: block;
 	font-size: 18px;
-	font-family: "Lato Bold";
+	font-weight: bold;
 	margin: 0 0 10px;
 	cursor: inherit;
 }
@@ -466,7 +466,7 @@
 	border: 1px solid #004988;
 	background: #004988;
 	font-size: 18px;
-	font-family: "Lato Bold";
+	font-weight: bold;
 	text-align: center;
 	transition: 0.3s all;
 }
@@ -500,7 +500,7 @@
 .lhbg .profile h3 {
 	font-size: 36px;
 	margin: 0 0 40px;
-	font-family: "Lato Bold";
+	font-weight: bold;
 }
 .lhbg p {
 	color: #fff;
@@ -566,8 +566,8 @@
 	padding: 100px 0 100px;
 }
 .ti-wrap {
-    padding-top: 200px;
-    margin-top: -200px;
+	padding-top: 200px;
+	margin-top: -200px;
 }
 
 @media screen and (max-width: 1600px) {
@@ -821,7 +821,7 @@
 }
 .duyc .col-left h3 {
 	font-size: 36px;
-	font-family: "Lato Bold";
+	font-weight: bold;
 	margin: 0 0 30px;
 }
 .duyc .col-right {
@@ -841,7 +841,7 @@
 }
 .nx-full .title h3 {
 	font-size: 36px;
-	font-family: "Lato Bold";
+	font-weight: bold;
 	text-align: center;
 	padding: 50px 0 150px;
 }
@@ -853,7 +853,7 @@
 }
 .nx-full .box-dv h3 {
 	font-size: 36px;
-	font-family: "Lato Bold";
+	font-weight: bold;
 	margin: 0 0 120px;
 }
 .nx-full .box-dv ul {
@@ -881,7 +881,7 @@
 .nx-full .box-dv ul li .ttl {
 	color: #1677be;
 	font-size: 18px;
-	font-family: "Lato Medium";
+	font-weight: 500;
 	margin: 0 0 10px;
 }
 .nx-full .box-dv ul li .txt {
@@ -1029,7 +1029,7 @@
 }
 .ttl-line {
 	font-size: 36px;
-	font-family: "Lato Bold";
+	font-weight: bold;
 	text-transform: uppercase;
 	text-align: center;
 	margin: 0 0 50px;
@@ -1144,7 +1144,7 @@
 	color: #1677be;
 	font-size: 18px;
 	text-align: center;
-	font-family: "Lato Bold";
+	font-weight: bold;
 }
 
 @media screen and (max-width: 1000px) {
@@ -1309,7 +1309,7 @@
 }
 .page-kcn-ct .box-tqda ul li h3 {
 	font-size: 24px;
-	font-family: "Lato Bold";
+	font-weight: bold;
 	margin: 0 0 20px;
 }
 .page-kcn-ct .box-tqda ul li p {
@@ -1330,8 +1330,8 @@
 }
 .sdvt {
 	background: #f1f9ff;
-    padding: 200px 0 100px;
-    margin-top: -100px;
+	padding: 200px 0 100px;
+	margin-top: -100px;
 }
 .sdvt .img {
 	max-width: 1140px;

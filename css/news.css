@@ -120,7 +120,7 @@
 .time-item {
 	color: #9b9b9b;
 	font-size: 9px;
-	font-family: "Lato Medium";
+	font-weight: 500;
 	position: relative;
 	padding-left: 16px;
 }
@@ -175,7 +175,7 @@
 	display: inline-block;
 	color: #004988;
 	font-size: 18px;
-	font-family: "Lato Bold";
+	font-weight: bold;
 	margin-bottom: 5px;
 	overflow: hidden;
 	text-overflow: ellipsis;
@@ -301,13 +301,13 @@
 .content-news .block-detail .title-news {
 	color: #004988;
 	font-size: 36px;
-	font-family: "Lato Bold";
+	font-weight: bold;
 	margin-bottom: 40px;
 }
 .content-news .block-detail .txt-line {
 	color: #004988;
 	font-size: 24px;
-	font-family: "Lato Bold";
+	font-weight: bold;
 	margin-bottom: 20px;
 }
 .content-news .block-detail .img,
@@ -333,11 +333,11 @@
 .content-news .related-post {
 	border-top: 1px solid #b4b4b4;
 	font-size: 18px;
-	font-family: "Lato Bold";
+	font-weight: bold;
 	padding-top: 30px;
 }
 .content-news .related-post .ttl {
-	font-family: "Lato Bold";
+	font-weight: bold;
 	margin-bottom: 20px;
 	text-transform: uppercase;
 }
@@ -376,7 +376,7 @@
 .list-related .item-related .ttl-sm {
 	color: #004988;
 	font-size: 16px;
-	font-family: "Lato Bold";
+	font-weight: bold;
 	margin-bottom: 10px;
 }
 

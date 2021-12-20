@@ -90,7 +90,7 @@ ol {
 /* ============================================ */
 
 dt {
-	font-family: "Lato Bold";
+	font-weight: bold;
 }
 
 dd {
@@ -476,7 +476,7 @@ th {
 
 th {
 	text-align: left;
-	font-family: "Lato Bold";
+	font-weight: bold;
 }
 
 /* Misc */
@@ -925,7 +925,7 @@ padding
 }
 
 .bold {
-	font-family: "Lato Bold";
+	font-weight: bold;
 }
 .center {
 	text-align: center;

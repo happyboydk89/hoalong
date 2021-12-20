@@ -3,17 +3,13 @@
 	font-family: "Lato Regular";
 	src: local("Lato Regular"), url(../fonts/Lato-Regular.ttf) format("truetype");
 }
-@font-face {
-	font-family: "Lato Medium";
+/* @font-face {
+	font-weight: "Lato Medium";
 	src: local("Lato Medium"), url(../fonts/Lato-Medium_0.ttf) format("truetype");
 }
 @font-face {
-	font-family: "Lato Bold";
+	font-weight: "Lato Bold";
 	src: local("Lato Bold"), url(../fonts/Lato-Bold.ttf) format("truetype");
-}
-/* @font-face {
-	font-family: "Lato Black";
-	src: local("Lato Black"), url(../fonts/Lato-Black.ttf) format("truetype");
 } */
 body {
 	font-family: "Lato Regular", sans-serif;
@@ -126,7 +122,7 @@ a:hover img {
 }
 .mv-text h2 {
 	font-size: 52px;
-	font-family: "Lato Bold";
+	font-weight: bold;
 	line-height: 1.2;
 	margin: 0 0 15px;
 	opacity: 0;
@@ -777,7 +773,7 @@ a:hover img {
 }
 .intro-tt .intro-nav a,
 .intro-cctc .intro-nav a {
-	font-family: "Lato Medium";
+	font-weight: 500;
 }
 .intro-nav a:hover {
 	color: #a3cc01;
@@ -964,7 +960,7 @@ a:hover img {
 }
 .intro1 h2 {
 	font-size: 24px;
-	font-family: "Lato Bold";
+	font-weight: bold;
 	line-height: 1.5;
 	text-align: center;
 	margin: 0 0 6vh;
@@ -1031,7 +1027,7 @@ a:hover img {
 }
 .tq-list h3 {
 	font-size: 1.6vw;
-	font-family: "Lato Bold";
+	font-weight: bold;
 	color: #1677be;
 	margin: 0 0 2.4vh;
 }
@@ -1189,7 +1185,7 @@ a:hover img {
 }
 .vh-list h3 {
 	font-size: 1.6vw;
-	font-family: "Lato Bold";
+	font-weight: bold;
 	line-height: 1.2;
 	color: #1677be;
 	margin: 0 0 2vh;
@@ -1347,7 +1343,7 @@ a:hover img {
 }
 .invest-info h2 {
 	font-size: 24px;
-	font-family: "Lato Bold";
+	font-weight: bold;
 	color: #a3cc01;
 	max-width: 46%;
 }
@@ -1417,7 +1413,7 @@ a:hover img {
 	padding: 0 0 60px;
 }
 .lv-invest h3 {
-	font-family: "Lato Bold";
+	font-weight: bold;
 	font-size: 20px;
 	color: #a3cc01;
 	margin: 0 0 30px;
@@ -1445,7 +1441,7 @@ a:hover img {
 }
 .lv-invest h4 {
 	font-size: 16px;
-	font-family: "Lato Bold";
+	font-weight: bold;
 	padding: 20px 0 10px;
 	transition: 0.3s;
 }
@@ -1548,7 +1544,7 @@ a:hover img {
 }
 .kcn-heading h1 {
 	font-size: 28px;
-	font-family: "Lato Bold";
+	font-weight: bold;
 	margin: 0 0 5px;
 }
 .kcn .y-scroll {
@@ -1564,7 +1560,7 @@ a:hover img {
 }
 .ht-kcn h2 {
 	font-size: 24px;
-	font-family: "Lato Bold";
+	font-weight: bold;
 }
 .ht-kcn p {
 	font-size: 16px;
@@ -1691,7 +1687,7 @@ a:hover img {
 }
 .kcn-slider dl dd {
 	font-size: 1.25vw;
-	font-family: "Lato Bold";
+	font-weight: bold;
 	color: #a3cc01;
 	transition: 0.3s;
 }
@@ -1938,7 +1934,7 @@ a:hover img {
 }
 .m-ttl {
 	font-size: 36px;
-	font-family: "Lato Bold";
+	font-weight: bold;
 	text-transform: uppercase;
 	text-align: center;
 	margin: 0 0 80px;
@@ -2167,7 +2163,7 @@ a:hover img {
 }
 .vttd-list a {
 	color: #1677be;
-	font-family: "Lato Medium";
+	font-weight: 500;
 }
 .vttd-list a span {
 	display: inline-block;
@@ -2472,7 +2468,7 @@ body.bg {
 }
 .gpcn h3 {
 	font-size: 36px;
-	font-family: "Lato Bold";
+	font-weight: bold;
 	color: #004988;
 	margin: 0 0 25px;
 }
@@ -2922,7 +2918,7 @@ body.bg {
 .cctc h2 {
 	text-align: center;
 	font-size: 36px;
-	font-family: "Lato Bold";
+	font-weight: bold;
 	color: #fff;
 	padding: 50px 0 30px;
 }
@@ -2947,7 +2943,7 @@ body.bg {
 }
 .cctc h3 {
 	font-size: 18px;
-	font-family: "Lato Bold";
+	font-weight: bold;
 	margin: 0 0 5px;
 }
 .cctc p {
@@ -3111,7 +3107,7 @@ body.bg {
 }
 .htcl-info h3 {
 	font-size: 24px;
-	font-family: "Lato Bold";
+	font-weight: bold;
 	color: #a3cc01;
 	text-transform: uppercase;
 	margin: 0 0 10px;
@@ -3212,7 +3208,7 @@ body.bg {
 }
 .lkdt-list h3 {
 	font-size: 17px;
-	font-family: "Lato Bold";
+	font-weight: bold;
 	text-transform: uppercase;
 	margin: 40px 0 15px;
 	min-height: 55px;
@@ -3408,7 +3404,7 @@ body.bg {
 	background: #666769;
 	color: #fff;
 	font-size: 24px;
-	font-family: "Lato Bold";
+	font-weight: bold;
 }
 .service-title h2 {
 	font-size: 48px;
@@ -3479,7 +3475,7 @@ body.bg {
 }
 .page-hl h4 {
 	font-size: 24px;
-	font-family: "Lato Bold";
+	font-weight: bold;
 	text-transform: uppercase;
 }
 @media only screen and (min-width: 1441px) {
@@ -3592,7 +3588,7 @@ body.bg {
 }
 .lkdt-intro-title h2 {
 	font-size: 54px;
-	font-family: "Lato Bold";
+	font-weight: bold;
 	color: #f68220;
 }
 .lkdt-intro-txt {
@@ -3658,12 +3654,12 @@ body.bg {
 	opacity: 0.7;
 }
 
-@media screen and (max-width:767px) {
+@media screen and (max-width: 767px) {
 	.v-modal-content {
 		overflow: hidden;
 		padding-top: 56.25%;
 		position: relative;
-	} 
+	}
 	.v-modal-content iframe {
 		position: absolute;
 		top: 0;

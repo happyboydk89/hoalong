@@ -24,7 +24,7 @@ footer#footer {
 #footer .ttl {
 	color: #004988;
 	font-size: 14px;
-	font-family: "Lato Bold";
+	font-weight: bold;
 	margin-bottom: 20px;
 }
 #footer .foot-col ul li {
@@ -107,11 +107,11 @@ footer#footer {
 	text-align: right;
 }
 #footer .foot-col .map iframe {
-    object-fit: cover;
+	object-fit: cover;
 	width: 100%;
 }
 #footer .foot-col .map {
-    height: 100px;
+	height: 100px;
 	overflow: hidden;
 }
 
