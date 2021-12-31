@@ -3244,10 +3244,18 @@ body.bg {
 .lkdt-list li:nth-child(4) .photo::after {
 	content: "4";
 }
+.lkdt-list .photo .img {
+    width: 170px;
+    height: 170px;
+    margin: 0 auto;
+    border-radius: 50%;
+}
 .lkdt-list .photo img {
-	display: block;
-	margin: 0 auto;
-	height: 170px;
+    display: block;
+    margin: 0 auto;
+    height: 170px;
+    object-fit: cover;
+    border-radius: 50%;
 }
 @media only screen and (min-width: 1441px) {
 	.lkdt-list li {

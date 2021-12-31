@@ -840,6 +840,29 @@
 	max-width: 50%;
 	padding: 0 0 0 50px;
 }
+.duyc .col-right .box-img {
+	position: relative;
+}
+.duyc .col-right .box-img .line {
+	display: block;
+	width: 240px;
+	height: 400px;
+	border: 1px solid #004988;
+	border-radius: 10px;
+	background: transparent;
+}
+.duyc .col-right .box-img .img {
+	position: absolute;
+	left: 25px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.duyc .col-right .box-img .img img {
+	border-radius: 10px;
+	object-fit: cover;
+	width: 488px;
+	height: 356px;
+}
 .duyc .duyc-content p {
 	font-size: 16px;
 }
@@ -923,6 +946,12 @@
 	.duyc {
 		padding: 0px 0 60px;
 	}
+	.duyc .col-right .box-img .line {
+    	height: 320px;
+	}
+	.duyc .col-right .box-img .img img {
+		height: 280px;
+	}
 }
 
 @media screen and (max-width: 1000px) {
@@ -935,6 +964,9 @@
 	}
 	.duyc .col-right {
 		padding: 0 0 0 30px;
+	}
+	.duyc .col-right .box-img .line {
+		width: 190px;
 	}
 	.nx-full .title h3 {
 		font-size: 30px;
