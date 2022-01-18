@@ -271,6 +271,7 @@ $(function () {
 		$(".tabs li").removeClass("is-select");
 		$(this).addClass("is-select");
 		$(".thanh-tuu .slick").slick("setPosition");
+		$(".thanh-tuu .slick").slick("refresh");
 		$(".sec1").attr("data-bg", num);
 	});
 	$(".j-tab").click(function () {
@@ -280,6 +281,7 @@ $(function () {
 		$(".tabs li").removeClass("is-select");
 		$(".tabs li").eq(num).addClass("is-select");
 		$(".thanh-tuu .slick").slick("setPosition");
+		$(".thanh-tuu .slick").slick("refresh");
 		$(".sec1").attr("data-bg", num);
 	});
 

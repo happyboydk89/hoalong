@@ -19,15 +19,27 @@
 	background: #f1f9ff;
 	padding: 20px 0 25px;
 }
+#platform .slick {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+#platform .slick .slick-list {
+	margin-bottom: 30px;
+}
+#platform .logo-client .slick .slick-list {
+	margin-bottom: 10px;
+}
 #platform .slick-arrow {
 	font-size: 0;
 	line-height: 0;
 	color: transparent;
 	width: 24px;
 	height: 24px;
-	position: absolute;
+	/* position: absolute;
 	left: 50%;
-	bottom: -3px;
+	bottom: -3px; */
 	z-index: 3;
 	background-size: cover;
 }
@@ -38,16 +50,19 @@
 	background: url("../img/icon/arrow-right.png") no-repeat center / 23px;
 }
 #platform .slick-prev {
-	transform: translateX(-147px);
+	/* transform: translateX(-147px); */
+	order: 2;
 }
 #platform .slick-next {
-	transform: translateX(127px);
+	/* transform: translateX(127px); */
+	order: 4;
 }
 #platform .slick-dots {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	margin: 10px 0 0;
+	/* margin: 10px 0 0; */
+	order: 3;
 }
 #platform .slick-dots li {
 	width: 18px;
@@ -137,10 +152,10 @@
 	padding: 80px 0;
 }
 #platform .platform-client .slick-prev {
-	transform: translateX(-120px);
+	/* transform: translateX(-120px); */
 }
 #platform .platform-client .slick-next {
-	transform: translateX(100px);
+	/* transform: translateX(100px); */
 }
 .platform-client .m-ttl {
 	/* font-weight: 500; */
@@ -181,7 +196,7 @@
 	display: flex;
 }
 #platform .platform-client .slick-dots {
-	margin: 40px 0 0;
+	/* margin: 40px 0 0; */
 }
 
 @media screen and (max-width: 1000px) {
