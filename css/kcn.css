@@ -108,13 +108,14 @@
 	bottom: inherit;
 	background: #c4c4c4;
 }
-.back-page .img-back {
+/* .back-page .img-back {
 	margin: 0;
 }
 .back-page .title-back {
-	margin-top: 50px;
+	width: 100%;
+    margin: 10px 0 0 10px;
 	color: #a3cc01;
-}
+} */
 .box-tq {
 	background: #f1f1f1;
 	color: rgba(0, 0, 0, 0.8);
