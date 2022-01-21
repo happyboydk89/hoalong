@@ -866,9 +866,29 @@ a:hover img {
 	left: 24%;
 	bottom: 40px;
 }
+.hli-7 p {
+	font-size: 7.5vw;
+	position: absolute;
+	left: 18.2vw;
+	top: 13px;
+}
+.hli-7 p span {
+	font-size: 138%;
+	font-weight: bold;
+	color: #a3cc01;
+	display: inline-block;
+	margin: 0 10px 0 0;
+}
 @media only screen and (min-width: 1441px) {
 	.hli-7 {
 		bottom: 110px;
+	}
+	.hli-7 p {
+		font-size: 144px;
+		left: 350px;
+	}
+	.hli-7 p span {
+		font-size: 200px;
 	}
 }
 @media only screen and (max-width: 1024px) {
@@ -880,12 +900,20 @@ a:hover img {
 	.hli-7 {
 		bottom: 20vh;
 	}
+	.hli-7 p {
+		top: 5px;
+	}
 }
 @media only screen and (max-width: 767px) {
 	.hli-7 {
 		left: 5%;
 		width: 90%;
 		bottom: 80px;
+	}
+	.hli-7 p {
+		font-size: 12vw;
+		left: 33vw;
+		top: 8px;
 	}
 }
 .t-conts .cont {
