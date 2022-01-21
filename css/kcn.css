@@ -26,6 +26,9 @@
 	width: 100%;
 	color: #fff;
 }
+.kcn-title .fogo img {
+	max-width: 270px;
+} 
 .kcn-title h2 {
 	font-size: 64px;
 	font-weight: bold;

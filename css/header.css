@@ -13,6 +13,13 @@
 	transition: 0.2s all;
 	z-index: 9;
 }
+.header.is-scrolling {
+	background-color: #fff;
+	color: #185da6;
+}
+.header.is-scrolling .gnav > ul.gnav-main {
+	border-bottom: 1px solid #185da6;
+}
 @media only screen and (min-width: 1600px) {
 	.header {
 		padding: 22px 5% 40px;

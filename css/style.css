@@ -3607,11 +3607,11 @@ body.bg {
 	width: 49%;
 }
 .xtsp.thanh-tuu .slick-prev {
-	transform: translateX(-100px);
+	/* transform: translateX(-100px); */
 	background: url("../img/icon/arrow-left.png") no-repeat center / 23px;
 }
 .xtsp.thanh-tuu .slick-next {
-	transform: translateX(70px);
+	/* transform: translateX(70px); */
 	background: url("../img/icon/arrow-right.png") no-repeat center / 23px;
 }
 @media only screen and (min-width: 1441px) {
