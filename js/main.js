@@ -130,7 +130,7 @@ $(function () {
 		slidesToShow: 3,
 		slidesToScroll: 1,
 		dots: true,
-		// autoplay: true,
+		autoplay: true,
 		infinite: true,
 		autoplaySpeed: 5000,
 		speed: 1000,
