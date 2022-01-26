@@ -1736,6 +1736,7 @@ a:hover img {
 .kcn-slider .slick .slick-list,
 .thanh-tuu .slick .slick-list {
 	margin-bottom: 30px;
+	width: 100%;
 }
 .kcn-slider .slick-arrow,
 .thanh-tuu .slick-arrow {

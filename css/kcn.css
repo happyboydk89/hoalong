@@ -28,7 +28,7 @@
 }
 .kcn-title .fogo img {
 	max-width: 270px;
-} 
+}
 .kcn-title h2 {
 	font-size: 64px;
 	font-weight: bold;
@@ -331,6 +331,7 @@
 	justify-content: center;
 }
 .page-kcn .slick .slick-list {
+	width: 100%;
 	margin-bottom: 30px;
 }
 .page-kcn .slick-arrow {
