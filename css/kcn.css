@@ -605,8 +605,9 @@
 
 @media screen and (max-width: 1600px) {
 	.anchor-foot .list-tabs li a {
-		width: 130px;
+		width: auto;
 		font-size: 16px;
+		padding: 0 20px;
 	}
 }
 
@@ -657,7 +658,7 @@
 }
 @media screen and (max-width: 1000px) {
 	.anchor-foot .list-tabs li a {
-		width: 110px;
+		/* width: 110px; */
 		font-size: 14px;
 	}
 	.f-move {
@@ -728,13 +729,13 @@
 	}
 	.anchor-foot .list-tabs li a {
 		font-size: 12px;
-		width: 100px;
+		/* width: 100px; */
 	}
 	.f-move {
 		bottom: 30vw;
 	}
 	.anchor-foot .list-tabs li {
-		margin: 7px 7px;
+		margin: 0 7px;
 	}
 	.page-kcn .box-head h3,
 	.page-kcn .box-head p {
