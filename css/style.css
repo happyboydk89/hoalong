@@ -3419,16 +3419,18 @@ body.bg {
 }
 .page-hl .gallery .content {
 	position: absolute;
-	width: 100%;
-	height: 100%;
-	top: 80%;
-	left: 0;
-	background-color: rgba(246, 130, 32, 0.7);
-	transition: 0.3s all;
+    width: 100%;
+    height: 100%;
+    top: 100%;
+    margin-top: -50px;
+    left: 0;
+    background-color: rgba(246, 130, 32, 0.7);
+    transition: 0.3s all;
 }
 .gallery ul li:hover .content {
-	top: 0;
-	transition: 0.3s all;
+    top: 0;
+    transition: 0.3s all;
+    margin-top: 0;
 }
 .page-hl .gallery p {
 	font-size: 24px;
@@ -3447,14 +3449,8 @@ body.bg {
 		width: 49%;
 		margin: 0 0 15px;
 	}
-	.page-hl .gallery .content {
-		top: 85%;
-	}
 }
 @media only screen and (max-width: 768px) {
-	.page-hl .gallery .content {
-		top: 81%;
-	}
 }
 @media only screen and (max-width: 767px) {
 	.page-hl .gallery p {
@@ -3467,7 +3463,7 @@ body.bg {
 		padding: 0 15px;
 	}
 	.page-hl .gallery .content {
-		top: 86%;
+		margin-top: -38px;
 	}
 	.gallery ul li {
 		width: 100%;
