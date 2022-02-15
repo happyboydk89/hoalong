@@ -30,8 +30,11 @@
 	max-width: 270px;
 }
 .kcn-title h2 {
-	font-size: 64px;
+	font-size: 46px;
 	font-weight: bold;
+}
+.kcn-title h2 span {
+	font-size: 84px;
 }
 .kcn-title h3 {
 	font-size: 36px;
