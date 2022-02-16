@@ -6,6 +6,9 @@ $(window).on("load", function () {
 		$(".y-scroll, .intro4").mCustomScrollbar("destroy");
 	}
 	$("body").addClass("is-loaded");
+	setTimeout(function () {
+		$(".is-loaded .page-kcn .banner .bg img").addClass("is-hide");
+	}, 1100);
 });
 
 $(function () {
