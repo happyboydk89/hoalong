@@ -1,7 +1,30 @@
 $(window).on("load", function () {
 	var vw = $(window).width();
+
 	if (vw > 1024) {
-		$(".y-scroll, .intro4").mCustomScrollbar();
+		$(".y-scroll, .intro4").mCustomScrollbar({
+			callbacks: {
+				whileScrolling: function () {
+					if ($("body").hasClass("y-scroll")) {
+						var scrollTop = $("body").find(".mCSB_container").css("top");
+						var del_str = scrollTop.replace("-", "");
+						var del_str2 = parseInt(del_str.replace("px", ""));
+						var banner = $(".banner").height();
+						if (del_str2 > 10) {
+							$(".header.is-blue").addClass("fixed");
+						} else {
+							$(".header.is-blue").removeClass("fixed");
+						}
+						if (del_str2 >= banner - 118) {
+							$(".page-kcn .anchor-foot").addClass("fixed");
+						} else {
+							$(".page-kcn .anchor-foot").removeClass("fixed");
+						}
+					}
+				},
+				onScroll: function () {},
+			},
+		});
 	} else {
 		$(".y-scroll, .intro4").mCustomScrollbar("destroy");
 	}
@@ -231,8 +254,8 @@ $(function () {
 	});
 
 	$(window).scroll(function () {
-		var banner = $(".banner").height();
 		var sbHeight = window.pageYOffset;
+		var banner = $(".banner").height();
 		$(".header.is-blue").addClass("fixed");
 		if ($(window).scrollTop() === 0) {
 			$(".header.is-blue").removeClass("fixed");
@@ -242,7 +265,6 @@ $(function () {
 		} else {
 			$(".page-kcn .anchor-foot").removeClass("fixed");
 		}
-		// console.log(sbHeight);
 	});
 });
 
@@ -250,7 +272,7 @@ $(function () {
 	var top = 160;
 	//smooth scroll
 	$("a[href*=\\#]:not([href=\\#])")
-		.not(".j-inline, .j-moveTo")
+		.not(".j-inline, .j-moveTo, .anchor-foot a")
 		.click(function () {
 			if (location.pathname.replace(/^\//, "") == this.pathname.replace(/^\//, "") && location.hostname == this.hostname) {
 				var target = $(this.hash);
@@ -334,5 +356,15 @@ $(function () {
 		e.preventDefault();
 		$(this).closest(".maxheight_show").next(".maxheight_hide").slideDown();
 		$(this).hide();
+	});
+
+	$(document).on("click", ".anchor-foot a", function (e) {
+		e.preventDefault();
+		var href = $(this).attr("href"),
+			target = $(href).parents(".mCustomScrollbar");
+		console.log($(href).position().top);
+		if (target.length) {
+			target.mCustomScrollbar("scrollTo", $(href).position().top - top);
+		}
 	});
 });

@@ -1,3 +1,7 @@
+body.y-scroll {
+	overflow: auto;
+	height: 100vh;
+}
 .page-kcn .sec0 {
 	background: url("../img/invest/kcn/bg3.jpg") no-repeat center top / cover;
 	transition: all 0.5s ease-in-out;
@@ -837,6 +841,9 @@
 }
 .is-loaded .page-kcn .banner .bg img.is-hide {
 	opacity: 0;
+}
+.page-kcn .banner {
+	position: relative;
 }
 .page-kcn .banner .bg {
 	width: 100%;
