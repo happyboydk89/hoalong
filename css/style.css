@@ -1283,6 +1283,9 @@ a:hover img {
 	margin: 0 1.5vw;
 	width: 270px;
 }
+.manager-list ul li .photo img {
+	margin: 0 auto;
+}
 .manager-list dl {
 	height: 70px;
 	background: #004988;
@@ -1325,7 +1328,6 @@ a:hover img {
 	}
 	.manager-list ul li {
 		width: 32%;
-		margin: 0;
 	}
 	.manager-list dl dt {
 		font-size: 14px;
@@ -2858,11 +2860,14 @@ body.bg {
 .tt-cont {
 	text-align: center;
 }
-.tt-cont dt {
+.box-head-tt {
+	text-align: center;
+}
+.box-head-tt dt {
 	font-size: 28px;
 	margin: 0 0 5px;
 }
-.tt-cont dd {
+.box-head-tt dd {
 	font-size: 16px;
 	color: #a3cc01;
 	margin: 0 0 20px;
@@ -2870,7 +2875,7 @@ body.bg {
 }
 
 @media only screen and (min-width: 1441px) {
-	.tt-cont dd {
+	.box-head-tt dd {
 		margin: 0 0 30px;
 	}
 	.tt-cont .photo {
@@ -2895,10 +2900,10 @@ body.bg {
 	.tt-cont dl {
 		padding: 0 20px;
 	}
-	.tt-cont dt {
+	.box-head-tt dt {
 		font-size: 18px;
 	}
-	.tt-cont dd {
+	.box-head-tt dd {
 		font-size: 14px;
 		margin: 0 0 10px;
 	}
@@ -3175,7 +3180,7 @@ body.bg {
 	font-weight: bold;
 	color: #a3cc01;
 	text-transform: uppercase;
-	margin: 0 0 10px;
+	margin: 0 0 30px;
 }
 .htcl-info p {
 	margin: 0 0 20px;
@@ -3184,10 +3189,10 @@ body.bg {
 	font-size: 18px;
 	margin: 0;
 }
-.htcl-info p.htcl-site {
+/* .htcl-info p.htcl-site {
 	font-size: 14px;
 	font-style: italic;
-}
+} */
 .htcl-info a.btn {
 	background: #004988;
 	border-radius: 4px;
@@ -3215,9 +3220,9 @@ body.bg {
 	.htcl-info p.htcl-sub {
 		font-size: 16px;
 	}
-	.htcl-info p.htcl-site {
+	/* .htcl-info p.htcl-site {
 		font-size: 11px;
-	}
+	} */
 	.htcl-flex .photo a::after {
 		background-size: 50px;
 	}

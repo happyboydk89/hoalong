@@ -330,7 +330,6 @@ body.y-scroll {
 /* htq */
 .htq {
 	padding: 100px 0;
-	background: #f1f9ff;
 }
 .page-kcn .slick {
 	display: flex;
@@ -441,7 +440,8 @@ body.y-scroll {
 	font-weight: bold;
 	margin-bottom: 15px;
 }
-.ti-slider dl .txt {
+.ti-slider dl .txt,
+.splq-slider dl .txt {
 	color: #fff;
 	font-size: 16px;
 	font-weight: 400;
@@ -485,13 +485,18 @@ body.y-scroll {
 	cursor: inherit;
 }
 .lhbg .box-form input,
-.lhbg .box-form select {
+.lhbg .box-form select ,
+.lhbg .box-form textarea {
 	background: #fff;
 	width: 32%;
 	padding: 15px 10px;
 	color: #c8c8c8;
 }
-.lhbg .box-form input::placeholder {
+.lhbg .box-form textarea.fw {
+	width: 100%;
+}
+.lhbg .box-form input::placeholder ,
+.lhbg .box-form textarea::placeholder {
 	color: #c8c8c8;
 }
 .lhbg .box-form select {
@@ -530,8 +535,7 @@ body.y-scroll {
 	max-width: 30%;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
-	padding: 0 30px;
+	padding: 50px 30px;
 }
 .lhbg .bg-dots {
 	display: flex;
@@ -554,6 +558,7 @@ body.y-scroll {
 	border: 1px solid #004988;
 	text-align: center;
 	font-size: 16px;
+	margin-top: auto;
 	padding: 17px 20px;
 	position: relative;
 	transition: 0.3s all;
@@ -599,7 +604,13 @@ body.y-scroll {
 
 /* ti */
 .ti {
+	padding: 100px 0;
+}
+.bg-light-blue {
 	background: #f1f9ff;
+}
+/* splq */
+.splq {
 	padding: 100px 0;
 }
 
@@ -652,7 +663,8 @@ body.y-scroll {
 	.tthh,
 	.htq,
 	.csht,
-	.ti {
+	.ti ,
+	.splq {
 		padding: 60px 0;
 	}
 	.page-kcn .slick-item dl {
@@ -698,7 +710,8 @@ body.y-scroll {
 	.page-kcn dl dt {
 		font-size: 10px;
 	}
-	.ti-slider dl .txt {
+	.ti-slider dl .txt ,
+	.splq-slider dl .txt {
 		font-size: 12px;
 	}
 	.page-kcn dl dd {
@@ -712,7 +725,7 @@ body.y-scroll {
 		margin: 0 auto;
 	}
 	.lhbg .profile {
-		padding: 0 15px;
+		padding: 50px 15px;
 	}
 	.lhbg .profile h3 {
 		font-size: 28px;
@@ -765,7 +778,8 @@ body.y-scroll {
 	.tthh,
 	.htq,
 	.csht,
-	.ti {
+	.ti,
+	.splq {
 		padding: 40px 0;
 	}
 	.box-tt .col-left {
@@ -802,7 +816,8 @@ body.y-scroll {
 		padding: 7px;
 	}
 	.lhbg .box-form input,
-	.lhbg .box-form select {
+	.lhbg .box-form select ,
+	.lhbg .box-form textarea {
 		margin: 0 0 20px;
 		width: 49%;
 	}
@@ -1420,10 +1435,6 @@ body.y-scroll {
 	max-width: 1140px;
 	margin: 0 auto;
 }
-.page-kcn-ct .ti {
-	background: #fff;
-}
-
 @media screen and (max-width: 1100px) {
 	.page-kcn-ct .box-tqda ul li .col-left .box-icon {
 		width: 70px;
